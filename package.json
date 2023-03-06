@@ -1,0 +1,14 @@
+{
+  "name": "ceniteg",
+  "version": "1.0.0",
+  "repository": "git@github.com:Luis-Designs/ceniteg.git",
+  "author": "luis-designs <luislozano120xd@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "yarn parcel src/pug/*.pug"
+  },
+  "devDependencies": {
+    "@parcel/transformer-pug": "2.8.3",
+    "parcel": "^2.8.3"
+  }
+}

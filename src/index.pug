@@ -1,0 +1,30 @@
+extends layouts/default.pug
+
+block consts
+    - var title = "Home"
+
+block content
+    .card#card(style='width: 18rem;',data-id="1")
+        img.card-img-top(src='https://res.cloudinary.com/dokwefr5i/image/upload/v1676404395/cld-sample-5.jpg' alt='')
+        .card-body
+            h5.card-title Card title
+            p.card-text
+            | Some quick example text to build on the card title and make up the bulk of the card&apos;s content.
+            a.btn.btn-primary(href='#') Go somewhere
+
+    //- .row
+    //-     .box.col
+    //-         img(src="https://res.cloudinary.com/dokwefr5i/image/upload/v1676404395/cld-sample-5.jpg", alt="", width="100px")
+    //-     .box.col
+    //-         img(src="https://res.cloudinary.com/dokwefr5i/image/upload/v1676404395/cld-sample-5.jpg", alt="", width="100px")
+    //-     .box.col
+    //-         img(src="https://res.cloudinary.com/dokwefr5i/image/upload/v1676404395/cld-sample-5.jpg", alt="", width="100px")
+
+    <div class="row">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis tempora eveniet aliquid rerum accusamus incidunt quasi natus corporis ad architecto laboriosam minus sequi nostrum porro quaerat, dolores officia recusandae doloremque!</p>
+    </div>
+
+    .row
+        p
+            | Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis tempora eveniet aliquid rerum accusamus incidunt quasi natus corporis ad architecto laboriosam minus sequi nostrum porro quaerat, dolores officia recusandae doloremque!
+

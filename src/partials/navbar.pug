@@ -1,11 +1,9 @@
-nav.navbar.navbar-expand-lg.bg-body-tertiary
+nav.navbar.navbar-expand-lg.bg-light.sticky-top(style="height: 100px;")
   .container-fluid
-    a.navbar-brand(href='#') Navbar
+    a.navbar-brand(href='#')
+      include logo.pug
     button.navbar-toggler(type='button' data-bs-toggle='collapse' data-bs-target='#navbarNavAltMarkup' aria-controls='navbarNavAltMarkup' aria-expanded='false' aria-label='Toggle navigation')
       span.navbar-toggler-icon
-    #navbarNavAltMarkup.collapse.navbar-collapse
+    #navbarNavAltMarkup.collapse.navbar-collapse.justify-content-end
       .navbar-nav
-        a.nav-link.active(aria-current='page' href='#') Home
-        a.nav-link(href='#') Features
-        a.nav-link(href='#') Pricing
-        a.nav-link.disabled Disabled
+        include nav-links.pug

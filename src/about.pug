@@ -1,10 +1,52 @@
 extends layouts/default.pug
 
 block consts
-    - var title = "About"
+    - var title = "Nosotros"
 
 append css
     link(rel="stylesheet", href="./css/styles.css")
 
-block content
-    p.bg-primary.text-white Soy About
+block content    
+    main.main
+        section.contenedor
+         .banner
+          .banner_text
+            h1
+              | &iquest;Quienes somos?
+              p
+                | Ceniteg es una empresa consultora que brinda asesor&iacute;a y
+                | soluciones integrales en Miner&iacute;a. Los servicios de nuestra
+                | empresa abarcan todo el ciclo de vida de los proyectos, desde el
+                | dise&ntilde;o, exploraci&oacute;n, estudios de factibilidad, planicaci&oacute;n,
+                | benecio, comercializaci&oacute;n y hasta el cierre de los mismos.
+        
+          .imagen 
+
+    .proposito              
+        .card.my-5(style='width: 15rem;')
+            img.card-img-top(src='https://png.pngtree.com/png-vector/20200319/ourlarge/pngtree-target-business-concept-businessman-standing-on-flying-dart-to-achieve-business-png-image_2158012.jpg' alt='...')
+            .card-pro
+            h5.card-title Nuestro Proposito
+            p.card-text
+                | Nos dedicamos a gestionar, aplicar y transferir conocimiento, innovación y tecnología, mediante capacitaciones, asesorías y soluciones que agregan valor a nuestros clientes del ámbito minero, ambiental y otros sectores productivos.
+
+        .card.my-5(style='width: 15rem;')
+            img.card-img-top(src='https://png.pngtree.com/png-vector/20200319/ourlarge/pngtree-target-business-concept-businessman-standing-on-flying-dart-to-achieve-business-png-image_2158012.jpg' alt='...')
+            .card-pro
+            h5.card-title Nuestra Mision
+            p.card-text
+                | Llevar lo mejor en conocimiento, soluciones e innovación en ingeniería para nuestros clientes del rubro minero e industrial.
+
+        .card.my-5(style='width: 15rem;')
+            img.card-img-top(src='https://png.pngtree.com/png-vector/20200319/ourlarge/pngtree-target-business-concept-businessman-standing-on-flying-dart-to-achieve-business-png-image_2158012.jpg' alt='...')
+            .card-pro
+            h5.card-title Nuestra Vision
+            p.card-text
+                | Consolidarnos como la empresa líder del país brindando soluciones innovadoras en eciencia y conabilidad.
+
+    
+    
+
+
+        
+        

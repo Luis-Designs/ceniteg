@@ -1,0 +1,20 @@
+mixin modalDefault(title, body, key)
+    // Button trigger modal
+    .col-12.mt-4.text-center
+        button.btn.btn-primary.px-4(type='button' data-bs-toggle='modal' data-bs-target='#' + 'exampleModal' + key) Ver Más
+    // Modal
+    .modal.fade(id='exampleModal'+key, tabindex='-1' aria-labelledby='exampleModal'+key+'Label' aria-hidden='true')
+        .modal-dialog
+            .modal-content
+                .modal-header
+                    h1.modal-title.fs-5(id='exampleModal'+key+'Label') #{title}
+                    button.btn-close(type='button' data-bs-dismiss='modal' aria-label='Close')
+                .modal-body
+                    //- p.card-text #{Object.keys(service.topics).length}
+                    //- if Object.keys(service.topics).length
+                    //-     each topic in service.topics
+                    //-         p #{topic.name}
+                    each topic in body
+                        p • #{topic.name}
+                .modal-footer
+                    button.btn.btn-primary(type='button' data-bs-dismiss='modal') Close

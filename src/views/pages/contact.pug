@@ -1,0 +1,28 @@
+extends ../layouts/default.pug
+
+block consts
+    - var title = "Contact"
+
+block content
+    .container-fluid.py-5
+        .row.d-flex.flex-column.flex-lg-row 
+            .col-md-6.d-flex.justify-content-center
+                img(src="https://res.cloudinary.com/dokwefr5i/image/upload/v1678161351/Ceniteg/giphy_1_fdukjs.gif", alt="Science baby")
+            .col-md-6.d-flex.flex-column.form-contact.align-items-center.mt-2.mt-md-0
+                h1 Contacto
+                form(action="#", method="post")
+                    .col-12.inputgroup
+                        input.form-control(type="text",name="name", placeholder="Ingrese su nombre")
+                    .inputgroup
+                        input.form-control(type="text",name="email", placeholder="Ingrese su correo")
+                    .inputgroup
+                        input.form-control(type="text",name="subject", placeholder="Asunto")
+                    .inputgroup
+                        textarea.form-control#message(name="message", placeholder="Ingrese su mensaje")
+                    .inputgroup
+                        button.btn.btn-primary.btn-lg(type="submit") Enviar mensaje
+                    
+                    
+
+
+    

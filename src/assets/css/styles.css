@@ -17,9 +17,17 @@
     border-radius: 50%;
 }
 
-.social-links a:hover {
+.social-links a svg {
+    fill: rgba(0, 0, 0, 1);
+}
+
+.social-links a:hover{
     background-color: rgba(0, 0, 0, .5);
     cursor: pointer;
+}
+
+.social-links a:hover svg{
+    fill: #fff;
 }
 
 .pulsate {

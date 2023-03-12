@@ -1,0 +1,36 @@
+link(rel="stylesheet", href="assets/scss/carouselEquip.scss") 
+
+include ../../data/equip
+include ../../mixins/socialIcons
+
+.w-100
+  .col-10.m-auto
+    .owl-carousel
+      each item, i in dataEquip
+        .item
+            .circle #{i + 1}
+            img(src=item.img, alt="carousel-equip-img-"+i) 
+            p.mt-3 #{item.name}
+            p.mb-3 #{item.role}
+            .social-links.mt-5.mb-3.ms-4
+                each link, key in item.socialLinks 
+                    a(href=link)
+                        +socialIcons(key)
+         
+script.
+  $('.owl-carousel').owlCarousel({
+  loop: true,
+  margin: 15,
+  nav: true,
+  responsive: {
+  0: {
+  items: 1,
+  },
+  600: {
+  items: 2,
+  },
+  1000: {
+  items: 3,
+  },
+  },
+  });

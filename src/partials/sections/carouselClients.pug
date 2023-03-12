@@ -1,0 +1,27 @@
+link(rel="stylesheet", href="assets/scss/carouselServices.scss")  
+
+include ../../data/clients
+.w-100
+  .col-10.m-auto
+    .owl-carousel
+      each client, i in clients
+        .item
+          img(src=client, alt='carousel-img-' + i)
+          
+script.
+  $('.owl-carousel').owlCarousel({
+  loop: true,
+  margin: 15,
+  nav: true,
+  responsive: {
+  0: {
+  items: 1,
+  },
+  600: {
+  items: 2,
+  },
+  1000: {
+  items: 3,
+  },
+  },
+  });

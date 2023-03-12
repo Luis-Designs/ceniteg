@@ -8,13 +8,13 @@ html(lang="en")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
         title CENITEG - #{title}
         block css
-            link(rel="stylesheet", href="scss/main.scss")
-            link(rel="stylesheet", href="css/styles.css")
+            link(rel="stylesheet", href="assets/scss/main.scss")
+            link(rel="stylesheet", href="assets/css/styles.css")
 
         block script
-            script(src="js/main.js", type="module") 
+            script(src="assets/js/main.js", type="module") 
 
     body
-        include ../partials/navbar.pug
+        include ../../partials/components/navbar.pug
         block content 
-        include ../partials/footer.pug
+        include ../../partials/components/footer.pug

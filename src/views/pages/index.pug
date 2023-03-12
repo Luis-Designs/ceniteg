@@ -1,10 +1,11 @@
-extends layouts/default.pug
+extends ../layouts/default
 
 block consts
     - var title = "Home"
+    - var dir = ''
 
 block content
-    .row.full-hero.d-flex.align-items-end
+    .container-fluid.full-hero.d-flex.align-items-end
         .col-12.mb-3.d-flex.justify-content-between.align-items-center
             div
                 button.btn.btn-primary.btn-lg.me-1 Cotizar

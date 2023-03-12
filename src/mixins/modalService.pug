@@ -1,7 +1,6 @@
 mixin modalService(title, body, key)
     // Button trigger modal
-    .col-12.mt-4.text-center
-        button.btn.btn-primary.px-4(type='button' data-bs-toggle='modal' data-bs-target='#' + 'exampleModal' + key) Ver Más
+    button.btn.btn-primary.px-4(type='button' data-bs-toggle='modal' data-bs-target='#' + 'exampleModal' + key) Servicios
     // Modal
     .modal.fade(id='exampleModal'+key, tabindex='-1' aria-labelledby='exampleModal'+key+'Label' aria-hidden='true')
         .modal-dialog

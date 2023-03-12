@@ -1,0 +1,10 @@
+extends ../../layouts/default
+
+block consts
+    - var title = "Services - PERFORACIÓN Y VOLADURA"
+    - var dir = '../'
+
+block content
+    include ../../../mixins/serviceInfo
+
+    +serviceInfo('drillingBlasting')

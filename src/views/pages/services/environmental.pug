@@ -1,0 +1,10 @@
+extends ../../layouts/default
+
+block consts
+    - var title = "Services - MEDIO AMBIENTE"
+    - var dir = '../'
+
+block content
+    include ../../../mixins/serviceInfo
+
+    +serviceInfo('environmental')

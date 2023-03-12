@@ -1,0 +1,26 @@
+include ../data/services
+
+mixin serviceInfo(service)
+    - var serviceDetails = services[service]
+
+    .container-fluid.d-flex.justify-content-center.align-items-center.text-white.mb-5(style="background-image: url(" + serviceDetails.img+ "); background-size: cover; height: 300px;")
+        h1 #{serviceDetails.name}
+
+    .container-fluid.mb-5
+        .row
+            .col-lg-6
+                h2.mb-3 Descripción
+                p #{serviceDetails.description}
+            .col-lg-6
+                h2.mb-3 Servicios
+
+                #accordionExample.accordion.accordion-flush
+                    each topic, key in serviceDetails.topics
+                        .accordion-item
+                            h3.accordion-header(id='heading' + key)
+                                button.accordion-button(type='button' data-bs-toggle='collapse' data-bs-target='#collapse' + key, aria-controls='collapse' + key) #{topic.name}
+                            if topic.items.length
+                                .accordion-collapse.collapse(aria-labelledby='heading' + key data-bs-parent='#accordionExample',aria-expanded="false", id='collapse' + key)
+                                    .accordion-body
+                                        each item, key in topic.items
+                                            p - #{item}

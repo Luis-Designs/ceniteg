@@ -65,3 +65,16 @@
     }
 }
 
+@media screen and (max-width: 520px) {
+    .item {
+        img {
+            width: 140px !important;
+            height: 140px;
+        }
+    }
+
+    .item::after{
+        width: 52%;
+        height: 100%;
+    }
+}

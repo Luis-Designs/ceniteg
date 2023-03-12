@@ -5,8 +5,8 @@
   "author": "luis-designs <luislozano120xd@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "yarn parcel src/*.pug src/assets/scss/*.scss src/assets/js/*.js src/assets/css/*.css",
-    "build": "yarn parcel build src/*.pug src/assets/scss/*.scss src/assets/js/*.js src/assets/css/*.css --public-url /ceniteg/",
+    "dev": "yarn parcel src/views/pages/*.pug",
+    "build": "yarn parcel build src/views/pages/*.pug --public-url /ceniteg/",
     "push-gh-pages": "yarn push-dir --dir=dist --branch=gh-pages --cleanup --verbose"
   },
   "devDependencies": {

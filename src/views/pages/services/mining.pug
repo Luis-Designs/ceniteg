@@ -1,0 +1,10 @@
+extends ../../layouts/default
+
+block consts
+    - var title = "Services - Minería"
+    - var dir = '../'
+
+block content
+    include ../../../mixins/serviceInfo
+
+    +serviceInfo('mining')

@@ -1,0 +1,16 @@
+link(rel="stylesheet", href="../../assets/scss/equip.scss") 
+
+include ../../data/equip
+include ../../mixins/socialIcons
+
+.col-12.ourEquip
+  each item, i in dataEquip
+    .item
+      img(src=item.img, alt="carousel-equip-img-"+i)
+      .item-description 
+        h2.mb-2 #{item.name}
+        p.mb-4 #{item.role}
+        .social-links
+            each link, key in item.socialLinks 
+                a(href=link)
+                    +socialIcons(key)

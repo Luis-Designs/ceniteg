@@ -16,8 +16,8 @@ block content
     main 
         section.container-fluid.hero-about
          .row.text-white
-          .col-lg-6.hero-about-text(data-aos="fade-down-right")
-            h1.text-center
+          .col-lg-8.hero-about-text(data-aos="fade-down-right")
+            h1
                 | &iquest;Quienes somos?
             p
                 | Ceniteg es una empresa consultora que brinda asesor&iacute;a y
@@ -25,31 +25,14 @@ block content
                 | empresa abarcan todo el ciclo de vida de los proyectos, desde el
                 | dise&ntilde;o, exploraci&oacute;n, estudios de factibilidad, planicaci&oacute;n,
                 | benecio, comercializaci&oacute;n y hasta el cierre de los mismos.
-        
-          img.col-lg-6.m-auto.d-none.d-lg-block(src="https://www.desdeadentro.pe/wp-content/uploads/2021/02/foto15.png", alt="about image", data-aos="fade-down-left")
 
     section.container-fluid.d-flex.flex-wrap.justify-content-evenly.pt-5(data-aos="fade-up",   data-aos-duration="2000")            
-        .card.mb-5(style='width: 16rem;')
-            img.card-img-top(src='https://png.pngtree.com/png-vector/20200319/ourlarge/pngtree-target-business-concept-businessman-standing-on-flying-dart-to-achieve-business-png-image_2158012.jpg' alt='...')
-            h5.card-title Nuestro Proposito
-            p.card-text
-                | Nos dedicamos a gestionar, aplicar y transferir conocimiento, innovación y tecnología, mediante capacitaciones, asesorías y soluciones que agregan valor a nuestros clientes del ámbito minero, ambiental y otros sectores productivos.
+        include ../../partials/sections/goals
 
-        .card.mb-5(style='width: 16rem;')
-            img.card-img-top(src='https://png.pngtree.com/png-vector/20200319/ourlarge/pngtree-target-business-concept-businessman-standing-on-flying-dart-to-achieve-business-png-image_2158012.jpg' alt='...')
-            h5.card-title Nuestra Mision
-            p.card-text
-                | Llevar lo mejor en conocimiento, soluciones e innovación en ingeniería para nuestros clientes del rubro minero e industrial.
-
-        .card.mb-5(style='width: 16rem;')
-            img.card-img-top(src='https://png.pngtree.com/png-vector/20200319/ourlarge/pngtree-target-business-concept-businessman-standing-on-flying-dart-to-achieve-business-png-image_2158012.jpg' alt='...')
-            h5.card-title Nuestra Vision
-            p.card-text
-                | Consolidarnos como la empresa líder del país brindando soluciones innovadoras en eciencia y conabilidad.
-
-    h2.container-fluid.d-flex.flex-wrap.justify-content-evenly(data-aos="fade-up",   data-aos-duration="1500") NUESTRO EQUIPO
-    section.container-fluid.d-flex.flex-wrap.justify-content-evenly.py-5(data-aos="fade-up",   data-aos-duration="2000")
-        include ../../partials/sections/carouselEquip
+    section.container-fluid.py-5.our-equip
+        h2.container-fluid.d-flex.flex-wrap.justify-content-evenly.text-white(data-aos="fade-up",   data-aos-duration="1500") NUESTRO EQUIPO
+        .container-fluid.d-flex.flex-wrap.justify-content-evenly.pt-3.pb-2
+            include ../../partials/sections/equip
 
     
     

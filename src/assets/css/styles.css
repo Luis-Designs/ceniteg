@@ -60,17 +60,32 @@
 }
 
 .hero-about {
-    background-image: url('https://4.bp.blogspot.com/-R1WaUskJr_s/TrxJoBiea9I/AAAAAAAAAVU/JAUoAJTDNY8/s1600/fondo+pantalla.jpg');
-    background-size: 100% 100%;
+    background-image: url('https://res.cloudinary.com/dokwefr5i/image/upload/v1678470839/Ceniteg/pexels-singkham-1108572_vktx6a.jpg');
+    background-size: cover;
     height: 85vh;
     background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    z-index: -100;
+}
+
+.hero-about::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 0.8;
+    z-index: -100;
 }
 
 .hero-about-text {
-    padding: 0 4%;
+    z-index: 100;
 }
 
 .hero-about-text h1 {
@@ -79,19 +94,36 @@
 }
 
 .hero-about-text p {
-    margin: 8% 0 0;
     font-size: 24px;
     text-align: justify;
 }
 
-.hero-about-text~img {
-    width: 28rem;
-    height: 40vh;
+.goal-card {
+    width: 16rem
 }
 
-.card {
-    background-color: rgb(140, 197, 241);
-    background-attachment: fixed;
+@media screen and (min-width: 1000px) {
+    .hero-about-text h1 {
+        padding: 0 0 4% 12%;
+    }
+
+    .hero-about-text p {
+        padding: 0 0 0 12%;
+    }
+
+    .goal-card {
+        width: 20rem
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .hero-about-text h1 {
+        font-size: 36px;
+    }
+
+    .hero-about-text p {
+        font-size: 18px;
+    }
 }
 
 .card-title {
@@ -114,12 +146,6 @@
     box-shadow: 0 !important;
 }
 
-@media screen and (max-width: 520px) {
-    .hero-about-text h1 {
-        font-size: 36px;
-    }
-
-    .hero-about-text p {
-        font-size: 18px;
-    }
+.our-equip {
+    background-image: url('https://res.cloudinary.com/dokwefr5i/image/upload/v1678978826/Ceniteg/pexels-pixabay-158729_l7lzas.jpg');
 }

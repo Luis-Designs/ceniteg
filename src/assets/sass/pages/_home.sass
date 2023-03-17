@@ -1,0 +1,127 @@
+@import '../base/_variables'
+
+.hero-home
+    background-color: $purple-strong
+    height: 85vh
+    color: $white
+    display: flex
+    justify-content: center
+    flex-direction: column
+
+    &::after
+        content: ''
+        z-index: 100
+        height: 100%
+        width: 100%
+        display: block
+        position: absolute
+        top: 0
+        left: 0
+        background-image: url('https://res.cloudinary.com/dokwefr5i/image/upload/v1679029174/Ceniteg/hero-inicio-wave_p2e5js.jpg')
+        background-repeat: no-repeat
+        background-size: cover
+        clip-path: polygon(75% 0, 100% 0%, 100% 100%, 50% 100%)
+    // background-color: #fff
+    & div
+        z-index: 200
+
+    & div:first-child
+        h1
+            margin: 0 0 2% 8%
+            font-size: 56px
+            font-weight: 800
+
+            & svg
+                fill: $yellow
+
+        p
+            margin: 0 0 2% 8%
+            padding: 0 44% 0 0
+            font-size: 28px
+
+    & div:nth-child(2)
+        a#btnBrochure
+            margin: 0 0 0 8%
+            border: 2px solid $yellow
+            background-color: $yellow
+            padding: 4px 32px
+            color: $white
+            border-radius: 28px
+            font-weight: 600
+            font-size: 20px
+
+            &:hover
+                cursor: pointer
+                background-color: transparent
+
+    & div:nth-child(3)
+        transform: translateY(80%)
+        display: flex
+        justify-content: end
+
+        a.pulsate
+            border-radius: 50%
+            animation-name: pulsate
+            animation-duration: 1s
+            animation-timing-function: ease-in-out
+            animation-iteration-count: infinite
+
+/* Definimos la animación */
+@keyframes pulsate
+    0%
+        transform: scale(1)
+        box-shadow: 0 0 0 10px rgba(0, 255, 0, 0.4)
+
+    70%
+        transform: scale(1.1)
+        box-shadow: 0 0 0 20px rgba(255, 255, 255, 0)
+
+    100%
+        transform: scale(1)
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0)
+
+.card-home
+    width: 100%
+    display: flex
+    justify-content: center
+    align-items: center
+
+    & .manager-intro
+        width: 70%
+        display: flex
+        border: 2px solid $purple-strong
+        border-radius: 12px
+        position: relative
+
+        & div:first-child
+            width: 30%
+            background-size: cover
+            background-position: top center
+            background-repeat: no-repeat
+            background-image: url('https://res.cloudinary.com/dokwefr5i/image/upload/v1679029174/Ceniteg/hero-inicio-wave_p2e5js.jpg')
+            border-radius: 10px 0 0 10px
+
+        & div:last-child
+            width: 70%
+            padding: 8% 6% 6% 8%
+
+            & svg
+                position: absolute
+                z-index: -100
+                fill: $gray
+                transform: translate(-40%, -40%)
+
+            & p
+                z-index: 200
+                font-size: 28px
+
+            & h3
+                z-index: 200
+                font-size: 36px
+                margin: 8% 0 4% 0
+                font-weight: 600
+                color: $purple-strong
+
+            & h4
+                z-index: 200
+                font-size: 28px

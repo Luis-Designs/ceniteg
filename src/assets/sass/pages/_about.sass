@@ -55,33 +55,43 @@
 
 .ourEquip
     display: flex
-    justify-content: center
+    justify-content: space-evenly
     align-items: center
     flex-wrap: wrap
-    width: 70%
+    width: 100%
 
-.item
-    background-color: rgba(99, 128, 198, .5)
-    display: flex
-    width: 44%
-    justify-content: center
-    align-items: center
-    padding: 2%
-    margin: 2%
-    border-radius: 16px
+    & .item
+        background-color: rgba(99, 128, 198, .5)
+        display: flex
+        width: 20rem
+        justify-content: center
+        align-items: center
+        padding: 2% 1%
+        margin: 1%
+        border-radius: 16px
 
-    img
-        width: 180px !important
-        height: 180px
-        aspect-ratio: 1/1
-        border-radius: 50%
+        img
+            width: 120px !important
+            height: 120px
+            aspect-ratio: 1/1
+            border-radius: 50%
 
-    &-description
-        color: #fff
-        padding: 0 0 0 4%
+        &-description
+            color: #fff
+            padding: 0 0 0 4%
 
-.social-links a
-    margin: 0 8px 0 0
+            .social-links a
+                padding: 0
+                margin: 0 8px 0 0
+                background-color: transparent
+
+                & svg
+                    fill: #fff
+
+                &:hover svg
+                    fill: $blue-strong
+                &:hover
+                    background-color: transparent
 
 @media screen and (max-width: 800px)
     .ourEquip
@@ -100,6 +110,3 @@
         margin: 0 8px 0 0
         padding: 0px 0px
         background-color: transparent
-
-        & svg
-            fill: #fff

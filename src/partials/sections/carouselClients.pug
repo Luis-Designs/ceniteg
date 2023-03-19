@@ -1,25 +1,57 @@
 include ../../data/clients
-.w-100
-  .col-10.m-auto
-    .owl-carousel
-      each client, i in clients
-        .item
-          img(src=client, alt='carousel-img-' + i)
-          
-script.
-  $('.owl-carousel').owlCarousel({
-  loop: true,
-  margin: 15,
-  nav: true,
-  responsive: {
-  0: {
-  items: 1,
-  },
-  600: {
-  items: 2,
-  },
-  1000: {
-  items: 3,
-  },
-  },
-  });
+
+
+
+#carouselExampleAutoplaying.carousel.slide.d-md-none(data-bs-ride='carousel')
+  .carousel-inner.d-md-none
+    each client, key in clients.sm
+      if key === 0
+        .carousel-item.carousel-item-services.active
+          img(src=client alt='client'+key)
+      else
+        .carousel-item.carousel-item-services
+          img(src=client alt='client'+key)
+  button.carousel-control-prev(type='button' data-bs-target='#carouselExampleAutoplaying' data-bs-slide='prev')
+    span.carousel-control-prev-icon(aria-hidden='true')
+    span.visually-hidden Previous
+  button.carousel-control-next(type='button' data-bs-target='#carouselExampleAutoplaying' data-bs-slide='next')
+    span.carousel-control-next-icon(aria-hidden='true')
+    span.visually-hidden Next
+#carouselExampleAutoplayingMD.carousel.slide.d-none.d-md-block.d-lg-none(data-bs-ride='carousel')
+  .carousel-inner
+    each clientsMD, key in clients.md
+      if key === 0
+        .carousel-item.carousel-item-services.active
+          each clientMD, keyMD in clientsMD
+            img(src=clientMD alt='client'+keyMD)
+      else
+        .carousel-item.carousel-item-services
+          each clientMD, keyMD in clientsMD
+            img(src=clientMD alt='client'+keyMD)
+  button.carousel-control-prev(type='button' data-bs-target='#carouselExampleAutoplayingMD' data-bs-slide='prev')
+    span.carousel-control-prev-icon(aria-hidden='true')
+    span.visually-hidden Previous
+  button.carousel-control-next(type='button' data-bs-target='#carouselExampleAutoplayingMD' data-bs-slide='next')
+    span.carousel-control-next-icon(aria-hidden='true')
+    span.visually-hidden Next
+
+#carouselExampleAutoplayingLG.carousel.slide.d-none.d-lg-block(data-bs-ride='carousel')
+  .carousel-inner
+    each clientsLG, key in clients.lg
+      if key === 0
+        .carousel-item.carousel-item-services.active
+          each clientLG, keyLG in clientsLG
+            img(src=clientLG alt='client'+keyLG)
+      else
+        .carousel-item.carousel-item-services
+          each clientLG, keyLG in clientsLG
+            img(src=clientLG alt='client'+keyLG)
+  button.carousel-control-prev(type='button' data-bs-target='#carouselExampleAutoplayingLG' data-bs-slide='prev')
+    span.carousel-control-prev-icon(aria-hidden='true')
+    span.visually-hidden Previous
+  button.carousel-control-next(type='button' data-bs-target='#carouselExampleAutoplayingLG' data-bs-slide='next')
+    span.carousel-control-next-icon(aria-hidden='true')
+    span.visually-hidden Next
+
+  
+  

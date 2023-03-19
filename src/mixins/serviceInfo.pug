@@ -3,8 +3,8 @@ include ../data/services
 mixin serviceInfo(service)
     - var serviceDetails = services[service]
 
-    .container-fluid.d-flex.justify-content-center.align-items-center.text-white.mb-5(style="background-image: url(" + serviceDetails.img+ "); background-size: cover; height: 300px;")
-        h1 #{serviceDetails.name}
+    .container-fluid.d-flex.justify-content-center.align-items-center.text-white.mb-5.hero(style="background-image: url(" + serviceDetails.img+ "); background-size: cover; height: 300px;")
+        h1(style="z-index: 100") #{serviceDetails.name}
 
     .container-fluid.mb-5
         .row

@@ -21,7 +21,6 @@
         background-repeat: no-repeat
         background-size: cover
         clip-path: polygon(75% 0, 100% 0%, 100% 100%, 50% 100%)
-    // background-color: #fff
     & div
         z-index: 200
 
@@ -53,32 +52,6 @@
             &:hover
                 cursor: pointer
                 background-color: transparent
-
-    & div:nth-child(3)
-        transform: translateY(80%)
-        display: flex
-        justify-content: end
-
-        a.pulsate
-            border-radius: 50%
-            animation-name: pulsate
-            animation-duration: 1s
-            animation-timing-function: ease-in-out
-            animation-iteration-count: infinite
-
-/* Definimos la animación */
-@keyframes pulsate
-    0%
-        transform: scale(1)
-        box-shadow: 0 0 0 10px rgba(0, 255, 0, 0.4)
-
-    70%
-        transform: scale(1.1)
-        box-shadow: 0 0 0 20px rgba(255, 255, 255, 0)
-
-    100%
-        transform: scale(1)
-        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0)
 
 .card-home
     width: 100%

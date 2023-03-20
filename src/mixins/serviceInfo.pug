@@ -3,24 +3,21 @@ include ../data/services
 mixin serviceInfo(service)
     - var serviceDetails = services[service]
 
-    .container-fluid.d-flex.justify-content-center.align-items-center.text-white.mb-5.hero(style="background-image: url(" + serviceDetails.img+ "); background-size: cover; height: 300px;")
-        h1(style="z-index: 100") #{serviceDetails.name}
-
-    .container-fluid.mb-5
+    .container-fluid.d-flex.justify-content-center.align-items-center.text-white.mb-5.hero.hero-info-service(style="background-image: url('" + serviceDetails.img + "')")
         .row
-            .col-lg-6
-                h2.mb-3 Descripción
+            .col-lg-8
+                h1 #{serviceDetails.name}
                 p #{serviceDetails.description}
-            .col-lg-6
-                h2.mb-3 Servicios
 
-                #accordionExample.accordion.accordion-flush
-                    each topic, key in serviceDetails.topics
-                        .accordion-item
-                            h3.accordion-header(id='heading' + key)
-                                button.accordion-button(type='button' data-bs-toggle='collapse' data-bs-target='#collapse' + key, aria-controls='collapse' + key) #{topic.name}
-                            if topic.items.length
-                                .accordion-collapse.collapse(aria-labelledby='heading' + key data-bs-parent='#accordionExample',aria-expanded="false", id='collapse' + key)
-                                    .accordion-body
-                                        each item, key in topic.items
-                                            p - #{item}
+    .container-fluid.service-info.mb-5
+        h2 Subservicios
+        .subservice
+            each topic, key in serviceDetails.topics
+                .subservice-content(style="background-image: url('"+ topic.img +"')")
+                    .subservice-content-info
+                        if !topic.items.length
+                            span <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M16 2H8C4.691 2 2 4.691 2 8v13a1 1 0 0 0 1 1h13c3.309 0 6-2.691 6-6V8c0-3.309-2.691-6-6-6zm1 11h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"></path></svg> #{topic.name}
+
+                        else
+                            each item, key in topic.items
+                                span <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M16 2H8C4.691 2 2 4.691 2 8v13a1 1 0 0 0 1 1h13c3.309 0 6-2.691 6-6V8c0-3.309-2.691-6-6-6zm1 11h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"></path></svg> #{item}

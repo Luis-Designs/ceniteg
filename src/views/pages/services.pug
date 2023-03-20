@@ -5,11 +5,11 @@ block consts
     - var dir = ''
 
 append css
-    link(rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css' integrity='sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==' crossorigin='anonymous')
+    link(rel='stylesheet' href='https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css')
 
 append script
-    script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js')
-    script(src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js' integrity='sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==' crossorigin='anonymous')
+    script(src='https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js')
+    
 
 block content
     .container-fluid.hero.hero-services
@@ -29,11 +29,11 @@ block content
                 .card-body
                     p.card-text #{service.description}
                 .card-footer
-                    a.btn.btn-warning.px-4.text-white(href="services/"+key+".pug") Ver Más 
+                    a(href="services/"+key+".pug") Ver Más 
 
     h2.container-fluid.d-flex.flex-wrap.justify-content-evenly.pt-5(data-aos="fade-up",   data-aos-duration="1500") NUESTROS CLIENTES
     
-    .container-fluid.d-flex.flex-wrap.justify-content-evenly.py-5(data-aos="zoom-in")
+    .container-fluid.d-flex.flex-wrap.justify-content-evenly.pb-5(data-aos="zoom-in")
         include ../../partials/sections/carouselClients
     
       

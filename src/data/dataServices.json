@@ -7,6 +7,7 @@
         "topics": {
             "gestionMinera": {
                 "name": "GESTIÓN EN MINERIA",
+                "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1678376358/Ceniteg/pexels-tom-fisk-2097855_j8nbe2.jpg",
                 "items": [
                     "Planes de minado",
                     "Perforación y voladura",
@@ -18,6 +19,7 @@
             },
             "desarrolloMineros": {
                 "name": "DESARROLLO DE PROYECTOS MINEROS",
+                "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1678376358/Ceniteg/pexels-tom-fisk-2097855_j8nbe2.jpg",
                 "items": [
                     "Exploración de recursos minerales",
                     "Preparación",
@@ -27,6 +29,7 @@
             },
             "seguridadMinera": {
                 "name": "SEGURIDAD MINERA",
+                "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1678376358/Ceniteg/pexels-tom-fisk-2097855_j8nbe2.jpg",
                 "items": [
                     "SSO (Seguridad y Salud Ocupacional)",
                     "MA (Media Ambiente)",
@@ -44,6 +47,7 @@
         "topics": {
             "gestionAmbiental": {
                 "name": "GESTIÓN E IMPACTO AMBIENTAL",
+                "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1678376358/Ceniteg/pexels-tom-fisk-2097855_j8nbe2.jpg",
                 "items": [
                     "Preparación de expedientes para permisos ambientales",
                     "Estudios de Línea Base.",
@@ -56,6 +60,7 @@
             },
             "participacionSocioAmbiental": {
                 "name": "PARTICIPACIÓN COMUNITARIA Y CONFLICTOS SOCIOAMBIENTALES",
+                "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1678376358/Ceniteg/pexels-tom-fisk-2097855_j8nbe2.jpg",
                 "items": [
                     "Estudios de Línea Base social",
                     "Estudios de Impacto Social",
@@ -66,6 +71,7 @@
             },
             "monitoreosAmbientales": {
                 "name": "MONITOREOS AMBIENTALES",
+                "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1678376358/Ceniteg/pexels-tom-fisk-2097855_j8nbe2.jpg",
                 "items": [
                     "Monitoreo de la Calidad de Agua",
                     "Monitoreo de Calidad de Suelo",
@@ -85,6 +91,7 @@
         "topics": {
             "obrasCiviles": {
                 "name": "OBRAS CIVILES",
+                "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1678376358/Ceniteg/pexels-tom-fisk-2097855_j8nbe2.jpg",
                 "items": [
                     "Voladuras controladas",
                     "Voladuras especiales",
@@ -95,6 +102,7 @@
             },
             "explotacionMinera": {
                 "name": "EXPLOTACIÓN MINERA PARA CANTERAS Y MINERÍA EN GENERAL",
+                "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1678376358/Ceniteg/pexels-tom-fisk-2097855_j8nbe2.jpg",
                 "items": [
                     "Explotación minera de canteras",
                     "Optimización de la fragmentación del mineral",
@@ -106,6 +114,7 @@
             },
             "accesosMineria": {
                 "name": "ACCESOS Y PLATAFORMAS PARA MINERÍA",
+                "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1678376358/Ceniteg/pexels-tom-fisk-2097855_j8nbe2.jpg",
                 "items": [
                     "Accesos a niveles iniciales para explotación primaria",
                     "Movimiento de tierras para infraestructura",
@@ -124,22 +133,27 @@
         "topics": {
             "implementacionProgresiva": {
                 "name": "Implementación progresiva del Sistema de Gestión de Calidad ISO 9001:2008 y su adecuación al ISO 9001:2015.",
+                "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1678376358/Ceniteg/pexels-tom-fisk-2097855_j8nbe2.jpg",
                 "items": []
             },
             "asesoriaProcesos": {
                 "name": "Asesoría basada en enfoque de procesos y pensamiento sistémico para la mejora continua y el cumplimiento de sus auditorías internas y externas.",
+                "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1678376358/Ceniteg/pexels-tom-fisk-2097855_j8nbe2.jpg",
                 "items": []
             },
             "disenoHerramientas": {
                 "name": "Diseño y/o implementación de herramientas, modelos y metodologías de gestión usados en calidad.",
+                "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1678376358/Ceniteg/pexels-tom-fisk-2097855_j8nbe2.jpg",
                 "items": []
             },
             "capacitacionPersonal": {
                 "name": "Capacitación del personal a su cargo en temas anes a la Calidad de su producto o servicio.",
+                "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1678376358/Ceniteg/pexels-tom-fisk-2097855_j8nbe2.jpg",
                 "items": []
             },
             "programasAuditorias": {
                 "name": "Programas de auditorías internas e inspecciones en Sistema de Gestión de la Calidad ISO 9001:2008.",
+                "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1678376358/Ceniteg/pexels-tom-fisk-2097855_j8nbe2.jpg",
                 "items": []
             }
         }
@@ -152,22 +166,27 @@
         "topics": {
             "asesoriasAdecuacion": {
                 "name": "Asesoría para la adecuación y cumplimiento de las normas legales vigentes en referencia al cuidado y protección del ambiente así como las aplicables a la Gestión Ambiental Nacional.",
+                "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1678376358/Ceniteg/pexels-tom-fisk-2097855_j8nbe2.jpg",
                 "items": []
             },
             "implementacionProgresiva": {
                 "name": "Implementación progresiva del Sistema de Gestión Ambiental ISO 14001: 2004 y su actualización ISO 14001: 2015.",
+                "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1678376358/Ceniteg/pexels-tom-fisk-2097855_j8nbe2.jpg",
                 "items": []
             },
             "planesAdecuacion": {
                 "name": "Planes de adecuación, reaprovechamiento y mitigación ambiental.",
+                "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1678376358/Ceniteg/pexels-tom-fisk-2097855_j8nbe2.jpg",
                 "items": []
             },
             "manejoIntegral": {
                 "name": "Manejo integral de Residuos Sólidos Industriales y/o Municipales.",
+                "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1678376358/Ceniteg/pexels-tom-fisk-2097855_j8nbe2.jpg",
                 "items": []
             },
             "gestionarObtencion": {
                 "name": "Gestionar la obtención de permisos ambientales ante las autoridades ambientales competentes.",
+                "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1678376358/Ceniteg/pexels-tom-fisk-2097855_j8nbe2.jpg",
                 "items": []
             }
         }

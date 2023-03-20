@@ -1,57 +1,45 @@
 include ../../data/clients
 
+.swiper.mySwiper
+  .swiper-wrapper
+    each client, key in clients
+      .swiper-slide
+        img(src=client, alt="client-"+ key)
+  .swiper-button-next
+  .swiper-button-prev
+  .swiper-pagination
 
-
-#carouselExampleAutoplaying.carousel.slide.d-md-none(data-bs-ride='carousel')
-  .carousel-inner.d-md-none
-    each client, key in clients.sm
-      if key === 0
-        .carousel-item.carousel-item-services.active
-          img(src=client alt='client'+key)
-      else
-        .carousel-item.carousel-item-services
-          img(src=client alt='client'+key)
-  button.carousel-control-prev(type='button' data-bs-target='#carouselExampleAutoplaying' data-bs-slide='prev')
-    span.carousel-control-prev-icon(aria-hidden='true')
-    span.visually-hidden Previous
-  button.carousel-control-next(type='button' data-bs-target='#carouselExampleAutoplaying' data-bs-slide='next')
-    span.carousel-control-next-icon(aria-hidden='true')
-    span.visually-hidden Next
-#carouselExampleAutoplayingMD.carousel.slide.d-none.d-md-block.d-lg-none(data-bs-ride='carousel')
-  .carousel-inner
-    each clientsMD, key in clients.md
-      if key === 0
-        .carousel-item.carousel-item-services.active
-          each clientMD, keyMD in clientsMD
-            img(src=clientMD alt='client'+keyMD)
-      else
-        .carousel-item.carousel-item-services
-          each clientMD, keyMD in clientsMD
-            img(src=clientMD alt='client'+keyMD)
-  button.carousel-control-prev(type='button' data-bs-target='#carouselExampleAutoplayingMD' data-bs-slide='prev')
-    span.carousel-control-prev-icon(aria-hidden='true')
-    span.visually-hidden Previous
-  button.carousel-control-next(type='button' data-bs-target='#carouselExampleAutoplayingMD' data-bs-slide='next')
-    span.carousel-control-next-icon(aria-hidden='true')
-    span.visually-hidden Next
-
-#carouselExampleAutoplayingLG.carousel.slide.d-none.d-lg-block(data-bs-ride='carousel')
-  .carousel-inner
-    each clientsLG, key in clients.lg
-      if key === 0
-        .carousel-item.carousel-item-services.active
-          each clientLG, keyLG in clientsLG
-            img(src=clientLG alt='client'+keyLG)
-      else
-        .carousel-item.carousel-item-services
-          each clientLG, keyLG in clientsLG
-            img(src=clientLG alt='client'+keyLG)
-  button.carousel-control-prev(type='button' data-bs-target='#carouselExampleAutoplayingLG' data-bs-slide='prev')
-    span.carousel-control-prev-icon(aria-hidden='true')
-    span.visually-hidden Previous
-  button.carousel-control-next(type='button' data-bs-target='#carouselExampleAutoplayingLG' data-bs-slide='next')
-    span.carousel-control-next-icon(aria-hidden='true')
-    span.visually-hidden Next
-
-  
-  
+script.
+  var swiper = new Swiper('.mySwiper', {
+  slidesPerView: 3,
+  //- centeredSlides: false,
+  grabCursor: true,
+  loop: true,
+  //- keyboard: {
+  //- enabled: true,
+  //- },
+  autoplay: {
+  delay: 2500,
+  disableOnInteraction: false,
+  },
+  breakpoints: {
+  0: {
+  slidesPerView: 1,
+  },
+  520: {
+  slidesPerView: 2,
+  },
+  950: {
+  slidesPerView: 3,
+  },
+  },
+  navigation: {
+  nextEl: '.swiper-button-next',
+  prevEl: '.swiper-button-prev',
+  },
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+    dynamicBullets: true,
+  }
+  });    

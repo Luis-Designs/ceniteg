@@ -46,41 +46,48 @@
                 font-size: 18px
                 padding: 0 0 0 0
 
-.goal-card
-    width: 16rem
-    border: 0
-    border-radius: 24px
+.goals
+    background-image: url('https://res.cloudinary.com/dokwefr5i/image/upload/v1679516713/Ceniteg/goals_pv3hku.jpg')
+    background-size: cover
+    width: 100%
 
-    & .card-img-top
-        border-radius: 24px 24px 0 0
+    &>div
+        height: 100%
+        width: 100%
+        display: flex
+        flex-direction: column
+        align-items: end
+        background-color: rgba(25, 51, 76, .6)
 
-    & .card-body
-        border-radius: 24px
-        background-color: $purple-strong
-        text-align: justify
-        color: $white
-        border-radius: 0 0 24px 24px
+        & div
+            border: 1px solid $yellow
+            border-width: 0 0 0 8px
+            background-color: $white
+            color: $blue-strong
+            margin: 0 4% 0 0
+            padding: 1% 2% 2%
 
-        & .card-title
-            text-align: center
-            font-weight: bold
-            font-size: 32px
-            padding: 12px 0
+            & h4
+                font-size: 36px
+                font-weight: bold
+                margin: 2% 0 2% 0
 
-        & .card-text
-            font-size: 18px
-            padding: 0 12px 12px
+            & p
+                font-size: 18px
+                text-align: justify
+                padding: 0 0 1% 0
 
-@media screen and (min-width: 1000px)
-    .goal-card
-        width: 22rem
+        & div:first-child,
+        & div:nth-child(2)
+            margin: 0 4% 2% 0
+
+
+
 .our-equip
-    background-color: $blue-strong
-
     &>h2
         text-align: center
         font-size: 44px
-        color: $white
+        color: $blue-strong
         font-weight: 800
 
     &-integrants
@@ -91,7 +98,9 @@
         width: 100%
 
         & .item
-            background-color: rgba(99, 128, 198, .5)
+            // background-color: $yellow
+            background-color: $blue-strong
+            // background-color: rgba(99, 128, 198, .5)
             display: flex
             width: 20rem
             justify-content: center

@@ -1,20 +1,14 @@
 [
     {
-        "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1678470839/Ceniteg/pexels-singkham-1108572_vktx6a.jpg",
-        "alt": "IMAGE Misión",
         "title": "Misión",
-        "description": "Llevar lo mejor en conocimiento, soluciones e innovación en ingeniería para nuestros clientes del rubro minero e industrial."
+        "description": "Brindamos soluciones de ingeniería y consultoría de calidad a nuestros clientes del sector minero, ambiental, agroindustrial y productivo."
     },
     {
-        "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1678470839/Ceniteg/pexels-singkham-1108572_vktx6a.jpg",
-        "alt": "IMAGE Aspiración",
         "title": "Aspiración",
-        "description": "Consolidarnos como la empresa líder del país brindando soluciones innovadoras en eciencia y conabilidad."
+        "description": "Ser socios estratégicos de nuestros clientes a nivel nacional e internacional, comprometidos con la calidad, investigación, innovación y tecnología."
     },
     {
-        "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1678470839/Ceniteg/pexels-singkham-1108572_vktx6a.jpg",
-        "alt": "IMAGE Propósito",
         "title": "Propósito",
-        "description": "Nos dedicamos a gestionar, aplicar y transferir conocimiento, innovación y tecnología, mediante capacitaciones, asesorías y soluciones que agregan valor a nuestros clientes del ámbito minero, ambiental y otros sectores productivos."
+        "description": "Brindar soluciones de ingeniería y consultoría de calidad a nuestros clientes del sector minero, ambiental, agroindustrial y productivo. Aplicar tecnología, innovación e investigación y fomentar una cultura de seguridad, cuidado del medio ambiente y responsabilidad social. Asimismo, estar comprometidos con el desarrollo, rentabilidad y satisfacción de nuestros clientes."
     }
 ]

@@ -1,194 +1,113 @@
 {
     "mining": {
-        "name": "MINERÍA",
+        "name": "MINERIA - CIVIL",
         "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1679444130/Ceniteg/pexels-piotr-arnoldes-6109677_claqgq.jpg",
         "alt": "imagen de minería",
-        "description": "Ceniteg es una empresa consultora que brinda asesoría y soluciones integrales en Minería. Los servicios de nuestra empresa abarcan todo el ciclo de vida de los proyectos, desde el diseño, exploración, estudios de factibilidad, planicación, benecio, comercialización y hasta el cierre de los mismos.",
+        "description": "Brindamos asesoría y soluciones integrales en Minería. Los servicios de nuestra empresa abarcan todo el ciclo de vida de los proyectos, desde el diseño, exploración, estudios de factibilidad, planicación, benecio, comercialización y hasta el cierre de los mismos.",
         "topics": {
-            "gestionMinera": {
-                "name": "GESTIÓN EN MINERIA",
-                "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1679459104/Ceniteg/gestion-minera_rjgfmv.jpg",
-                "items": [
-                    "Planes de minado",
-                    "Perforación y voladura",
-                    "Seguridad minera",
-                    "Costos en minería",
-                    "Comercialización de minerales",
-                    "Recuperación de minerales"
-                ]
-            },
-            "desarrolloMineros": {
-                "name": "DESARROLLO DE PROYECTOS MINEROS",
-                "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1679459105/Ceniteg/desarollo-proyectos-mineros_bd0jz6.jpg",
-                "items": [
-                    "Exploración de recursos minerales",
-                    "Preparación",
-                    "Explotación",
-                    "Recuperación"
-                ]
-            },
-            "seguridadMinera": {
-                "name": "SEGURIDAD MINERA",
-                "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1679459104/Ceniteg/gestion-minera_rjgfmv.jpg",
-                "items": [
-                    "SSO (Seguridad y Salud Ocupacional)",
-                    "MA (Media Ambiente)",
-                    "Sistemas de Calidad",
-                    "Sistemas de Responsabilidad Social"
-                ]
-            }
+            "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1679459104/Ceniteg/gestion-minera_rjgfmv.jpg",
+            "items": [
+                "Levantamiento topográfico",
+                "Estudios geológicos, geotécnicos y geomecánicos",
+                "Dirección de proyectos civiles",
+                "Movimiento de tierras superficiales",
+                "Plan de minado",
+                "Informe técnico minero",
+                "Ventilación de minas subterráneas",
+                "Dirección de proyectos mineros integrales",
+                "Supervisión especializada de cierre de mina"
+            ]
         }
     },
-    "environmental": {
-        "name": "MEDIO AMBIENTE",
-        "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1678376358/Ceniteg/pexels-tom-fisk-2097855_j8nbe2.jpg",
+    "environmentalStudies": {
+        "name": "ESTUDIOS AMBIENTALES",
+        "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1679490273/Ceniteg/ser_medio_ambiente_g7sjiy.jpg",
         "alt": "imagen de medio ambiente",
         "description": "Nuestros servicios incluyen elaboración de estudios de impacto ambiental, monitoreos ambientales, solución de conictos socioambientales, inspecciones y auditorias, capacitaciones ambientales, manejo de residuos y gestión ambiental.",
         "topics": {
-            "gestionAmbiental": {
-                "name": "GESTIÓN E IMPACTO AMBIENTAL",
-                "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1679459104/Ceniteg/impacto-ambiental_gjdodx.jpg",
-                "items": [
-                    "Preparación de expedientes para permisos ambientales",
-                    "Estudios de Línea Base.",
-                    "Estudios de Impacto Ambiental (DIA, EIA-Sd y EIA-d)",
-                    "Elaboración de Planes de Manejo Ambiental",
-                    "Planes de Remediación Ambiental",
-                    "Planes de Gestión de Riesgos Ambientales",
-                    "Elaboración de Planes de Monitoreo y Seguimiento Ambiental"
-                ]
-            },
-            "participacionSocioAmbiental": {
-                "name": "PARTICIPACIÓN COMUNITARIA Y CONFLICTOS SOCIOAMBIENTALES",
-                "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1679459105/Ceniteg/participaci%C3%B3n-ciudada_fa2n3n.jpg",
-                "items": [
-                    "Estudios de Línea Base social",
-                    "Estudios de Impacto Social",
-                    "Planes de Manejo Social",
-                    "Facilitación, negociación y resolución de conictos sociales",
-                    "Asesoramiento, gestión y elaboración de proyectos de desarrollo social"
-                ]
-            },
-            "monitoreosAmbientales": {
-                "name": "MONITOREOS AMBIENTALES",
-                "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1678376358/Ceniteg/pexels-tom-fisk-2097855_j8nbe2.jpg",
-                "items": [
-                    "Monitoreo de la Calidad de Agua",
-                    "Monitoreo de Calidad de Suelo",
-                    "Monitoreo de Calidad de Aire",
-                    "Monitoreo de Niveles de Ruido",
-                    "Monitoreo por Bioindicadores Ambientales",
-                    "Monitoreo y Caracterización de Euentes Industriales y Domésticos"
-                ]
-            }
+            "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1679459104/Ceniteg/gestion-minera_rjgfmv.jpg",
+            "items": [
+                "Declaración de impacto ambiental para actividades de exploración",
+                "Gestión para la Licencia de agua",
+                "Gestión para el Certificado de inexistencia de restos arqueológicos",
+                "Declaración de impacto ambiental",
+                "Monitoreos ambientales",
+                "Estudio de impacto ambiental semidetallado",
+                "Estudio de impacto ambiental detallado",
+                "Informe Técnico Sustentatorio",
+                "Plan de cierre"
+            ]
         }
     },
-    "drillingBlasting": {
-        "name": "PERFORACIÓN Y VOLADURA",
+    "polvorine": {
+        "name": "POLVORINES",
         "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1679444311/Ceniteg/pexels-islandhopper-x-14840752_wv99sd.jpg",
         "alt": "imagen de perforación y voladura",
         "description": "Nuestro plantel profesional realiza trabajos en las más variadas situaciones que requieran uso de explosivos para fragmentar rocas y otros materiales diseño en ingeniería; a su vez están en constante capacitación las últimas tecnologías empleadas en voladura.",
         "topics": {
-            "obrasCiviles": {
-                "name": "OBRAS CIVILES",
-                "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1678376358/Ceniteg/pexels-tom-fisk-2097855_j8nbe2.jpg",
-                "items": [
-                    "Voladuras controladas",
-                    "Voladuras especiales",
-                    "Demoliciones",
-                    "Voladura para túneles",
-                    "Voladura para carreteras, canales."
-                ]
-            },
-            "explotacionMinera": {
-                "name": "EXPLOTACIÓN MINERA PARA CANTERAS Y MINERÍA EN GENERAL",
-                "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1678376358/Ceniteg/pexels-tom-fisk-2097855_j8nbe2.jpg",
-                "items": [
-                    "Explotación minera de canteras",
-                    "Optimización de la fragmentación del mineral",
-                    "Planes de Manejo Social",
-                    "Técnicas innovadoras en el control y simulación de la voladura, mediante el uso de software",
-                    "Adecuada voladura según tipo de método de minado establecido",
-                    "Diseño de mallas de perforación"
-                ]
-            },
-            "accesosMineria": {
-                "name": "ACCESOS Y PLATAFORMAS PARA MINERÍA",
-                "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1678376358/Ceniteg/pexels-tom-fisk-2097855_j8nbe2.jpg",
-                "items": [
-                    "Accesos a niveles iniciales para explotación primaria",
-                    "Movimiento de tierras para infraestructura",
-                    "Presas de relaves, diques, pozas, reservorios",
-                    "Caminos de acceso y acarreo",
-                    "Talleres, campamentos, grifos y polvorines"
-                ]
-            }
+            "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1678376358/Ceniteg/pexels-tom-fisk-2097855_j8nbe2.jpg",
+            "items": [
+                "Diseño",
+                "Fabricación/ Construcción",
+                "Transporte",
+                "Instalación",
+                "Gestión de permiso",
+                "Administración",
+                "Inspección",
+                "Mantenimiento"
+            ]
         }
     },
-    "qualityManagement": {
-        "name": "SISTEMA DE GESTIÓN DE CALIDAD ISO 9001",
-        "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1679444315/Ceniteg/pexels-pixabay-416405_rqn5tr.jpg",
+    "drillingBlasting": {
+        "name": "PERFORACION Y VOLADURA",
+        "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1679490380/Ceniteg/isoo_ttikqd.jpg",
         "alt": "imagen de gestión de calidad ISO 9001",
         "description": "Ceniteg cuenta con una gama de servicios que ayudaran a las empresas a cumplir sus objetivos de una manera más sostenible.",
         "topics": {
-            "implementacionProgresiva": {
-                "name": "Implementación progresiva del Sistema de Gestión de Calidad ISO 9001:2008 y su adecuación al ISO 9001:2015.",
-                "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1678376358/Ceniteg/pexels-tom-fisk-2097855_j8nbe2.jpg",
-                "items": []
-            },
-            "asesoriaProcesos": {
-                "name": "Asesoría basada en enfoque de procesos y pensamiento sistémico para la mejora continua y el cumplimiento de sus auditorías internas y externas.",
-                "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1678376358/Ceniteg/pexels-tom-fisk-2097855_j8nbe2.jpg",
-                "items": []
-            },
-            "disenoHerramientas": {
-                "name": "Diseño y/o implementación de herramientas, modelos y metodologías de gestión usados en calidad.",
-                "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1678376358/Ceniteg/pexels-tom-fisk-2097855_j8nbe2.jpg",
-                "items": []
-            },
-            "capacitacionPersonal": {
-                "name": "Capacitación del personal a su cargo en temas anes a la Calidad de su producto o servicio.",
-                "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1678376358/Ceniteg/pexels-tom-fisk-2097855_j8nbe2.jpg",
-                "items": []
-            },
-            "programasAuditorias": {
-                "name": "Programas de auditorías internas e inspecciones en Sistema de Gestión de la Calidad ISO 9001:2008.",
-                "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1678376358/Ceniteg/pexels-tom-fisk-2097855_j8nbe2.jpg",
-                "items": []
-            }
+            "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1678376358/Ceniteg/pexels-tom-fisk-2097855_j8nbe2.jpg",
+            "items": [
+                "Asesoría y consultoría en la planeación de voladura de rocas",
+                "Técnicas innovadoras en simulación y control de la voladura mediante el uso de software",
+                "Plan de contingencia",
+                "Perforación y voladura en construcción",
+                "Voladura para remoción de derrumbes",
+                "Voladura para túneles",
+                "Voladura controlada en proyectos de construcción minera o civil para taludes, carreteras y zanjas",
+                "Voladura controlada en demoliciones",
+                "Análisis y control de vibraciones en campo lejano"
+            ]
         }
     },
-    "environmentalManagement": {
-        "name": "SISTEMA DE GESTIÓN AMBIENTAL",
-        "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1679444317/Ceniteg/pexels-mikhail-nilov-8297445_kjsfhh.jpg",
+    "securityHealthWork": {
+        "name": "SEGURIDAD Y SALUD EN EL TRABAJO",
+        "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1679490100/Ceniteg/serv_gestion_calidad_medio_ambiente_kqxtia.jpg",
         "alt": "imagen de gestión de calidad ambiental",
         "description": "Ceniteg contribuye de manera decisiva en la consolidación de una cultura de desarrollo ambiental sustentable en el sector empresarial, permitiendo el acceso a tecnologías y procedimientos más ecientes, rentables y de menor impacto ambiental.",
         "topics": {
-            "asesoriasAdecuacion": {
-                "name": "Asesoría para la adecuación y cumplimiento de las normas legales vigentes en referencia al cuidado y protección del ambiente así como las aplicables a la Gestión Ambiental Nacional.",
-                "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1678376358/Ceniteg/pexels-tom-fisk-2097855_j8nbe2.jpg",
-                "items": []
-            },
-            "implementacionProgresiva": {
-                "name": "Implementación progresiva del Sistema de Gestión Ambiental ISO 14001: 2004 y su actualización ISO 14001: 2015.",
-                "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1678376358/Ceniteg/pexels-tom-fisk-2097855_j8nbe2.jpg",
-                "items": []
-            },
-            "planesAdecuacion": {
-                "name": "Planes de adecuación, reaprovechamiento y mitigación ambiental.",
-                "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1678376358/Ceniteg/pexels-tom-fisk-2097855_j8nbe2.jpg",
-                "items": []
-            },
-            "manejoIntegral": {
-                "name": "Manejo integral de Residuos Sólidos Industriales y/o Municipales.",
-                "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1678376358/Ceniteg/pexels-tom-fisk-2097855_j8nbe2.jpg",
-                "items": []
-            },
-            "gestionarObtencion": {
-                "name": "Gestionar la obtención de permisos ambientales ante las autoridades ambientales competentes.",
-                "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1678376358/Ceniteg/pexels-tom-fisk-2097855_j8nbe2.jpg",
-                "items": []
-            }
+            "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1678376358/Ceniteg/pexels-tom-fisk-2097855_j8nbe2.jpg",
+            "items": [
+                "Sistemas de Gestión de Seguridad y Salud en el Trabajo",
+                "Seguridad, Salud Ocupacional y Medio Ambiente",
+                "Capacitaciones en Seguridad y Salud en el Trabajo"
+            ]
+        }
+    },
+    "businessManagement": {
+        "name": "GESTIÓN EMPRESARIAL",
+        "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1679490100/Ceniteg/serv_gestion_calidad_medio_ambiente_kqxtia.jpg",
+        "alt": "imagen de gestión de calidad ambiental",
+        "description": "Ceniteg contribuye de manera decisiva en la consolidación de una cultura de desarrollo ambiental sustentable en el sector empresarial, permitiendo el acceso a tecnologías y procedimientos más ecientes, rentables y de menor impacto ambiental.",
+        "topics": {
+            "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1678376358/Ceniteg/pexels-tom-fisk-2097855_j8nbe2.jpg",
+            "items": [
+                "Monitoreo de la Calidad de Agua",
+                "Monitoreo de Calidad de Suelo",
+                "Monitoreo de Calidad de Aire",
+                "Monitoreo de Niveles de Ruido",
+                "Monitoreo por Bioindicadores Ambientales",
+                "Monitoreo y Caracterización de Efluentes",
+                "Industriales y Domésticos"
+            ]
         }
     }
 }

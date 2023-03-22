@@ -13,7 +13,7 @@ append script
 
 block content
     .video-services
-        video(autoplay='' muted='' playsinline='' loop='', src='https://res.cloudinary.com/dokwefr5i/video/upload/v1679437171/Ceniteg/production_ID_4474927_drtjdy.mp4')
+        video(autoplay='' muted='' playsinline='' loop='', src='https://res.cloudinary.com/dokwefr5i/video/upload/v1679437181/Ceniteg/pexels-nino-milin-7754659_omemu1.mp4')
         .container-fluid
             .col-12.slide-right
                 h1 Asesoría y Soluciones Integrales en Minería y Medio Ambiente
@@ -30,12 +30,11 @@ block content
                 .card-body
                     p.card-text #{service.description}
                 .card-footer
-                    +modalService(service.name, service.topics, key)
+                    +modalService(service.name, service.topics.items, key)
                     a(href="services/"+key+".pug") Ver Más 
 
-    h2.container-fluid.d-flex.flex-wrap.justify-content-evenly.pt-5 NUESTROS CLIENTES
-    
-    .container-fluid.d-flex.flex-wrap.justify-content-evenly.pb-5
+    .container-fluid.d-flex.flex-wrap.justify-content-evenly.py-5.mb-2.bg-purple
+        h2 NUESTROS CLIENTES
         include ../../partials/sections/carouselClients
     
       

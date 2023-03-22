@@ -27,7 +27,6 @@
             font-size: 56px
             margin: 0 0 2% 8%
             padding: 0 44% 0 0
-            text-align: justify
             font-weight: 800
 
         & p
@@ -48,6 +47,13 @@
                 margin: 8% 2% 10% 2%
                 font-size: 16px
                 padding: 0 0 0 0
+.bg-purple
+    background-color: $blue-strong
+    color: $yellow
+
+    h2
+        font-size: 48px
+        font-weight: 800
 
 .card-img-service
     background-size: cover
@@ -83,6 +89,7 @@
     background-color: $blue-strong
     font-size: 18px
     padding: 12px 28px
+    text-align: justify
     color: $white
 
 .card-footer
@@ -90,6 +97,7 @@
     display: flex
     justify-content: center
     border-width: 0 1px 1px 1px
+    padding: 4% 0 6% 0
 
     & button:not(.btn-close),
     & a
@@ -115,11 +123,19 @@
         & a
             padding: 6px 24px
 
+.modal-content
+    .modal-body
+        p
+            svg
+                fill: #637fc6
+                margin: 0 1% 0 0
+
 /* SWIPER CSS */
 .swiper
     width: 80%
     height: 300px
-    --swiper-theme-color: #637fc6
+    --swiper-theme-color: #f8931f
+    // --swiper-theme-color: #637fc6
 
     &-slide
         display: flex !important
@@ -148,14 +164,20 @@
     flex-direction: column
     justify-content: center
     color: $white
-    .row .col-lg-8
+    div
         z-index: 100
 
         h1
-            font-size: 48px
+            font-size: 56px
+            margin: 0 0 2% 8%
+            padding: 0 44% 0 0
+            font-weight: 800
 
         p
+            margin: 0 0 2% 8%
+            padding: 0 44% 0 0
             font-size: 24px
+            text-align: justify
 
 @media screen and (min-width: 1000px)
     .hero-info-service
@@ -189,55 +211,39 @@
     display: flex
     justify-content: space-evenly
     flex-wrap: wrap
-    border: 1px solid red
+    border: 1px solid $purple-strong
+    border-radius: 48px 0 0 48px
 
     &-content
-        border: 1px solid red
         background-color: $white
         // background: linear-gradient(to left, $purple-strong, $white)
+        border: 1px solid $purple-strong
+        border-width: 0 6px 0 0
         border-radius: 20px
-        width: 30%
-        margin: 4% 0 0 0
-        border-radius: 48px 48px 48px 0
+        width: 100%
+        border-radius: 48px 0 0 48px
         display: flex
         // flex-direction: column
 
-        &-img
-            border-radius: 48px 0 0 0
-            background-size: cover
-            width: 100%
-            height: 400px
-            // min-height: 300px
-            border: 1px solid red
+        & img
+            border-radius: 48px 0 0 48px
+            // border-radius: 48px 0 0 0
+            width: 40%
 
-            & div
-                border-radius: 48px 0 0 0
-                padding: 4%
-                width: 100%
-                height: 100%
-                display: flex
-                align-items: center
+        & div
+            width: 60%
+            padding: 1% 10% 1% 4%
+
+            & p
+                padding: 1% 4%
+                margin: 1% 0
+                font-size: 18px
+                border-radius: 16px
+                background-color: $purple-strong
+                font-weight: 600
+
                 color: $white
 
-                background-color: rgba(0, 0, 0, .3)
-
-                & h3
-                    text-align: center
-                    font-size: 28px
-                    font-weight: 800
-
-        
-// @media screen and (max-width: 920px)
-//     .subservice
-//         &-content
-//             margin: 8% 0 0 0
-//             width: 48%
-
-// @media screen and (max-width: 520px)
-//     .subservice
-//         &-content
-//             width: 100%
-//             color: $white
-//             &-info
-//                 & span svg
-//                     fill: $white
+                & svg
+                    fill: $white
+                    margin: 0 1% 0 0

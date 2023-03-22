@@ -1,26 +1,19 @@
 include ../data/services
+include modalService
 
 mixin serviceInfo(service)
     - var serviceDetails = services[service]
 
-    .container-fluid.d-flex.justify-content-center.align-items-center.text-white.mb-5(style="background-image: url(" + serviceDetails.img+ "); background-size: cover; height: 300px;")
-        h1 #{serviceDetails.name}
+    .container-fluid.d-flex.justify-content-center.align-items-center.text-white.hero.hero-info-service(style="background-image: url('" + serviceDetails.img + "')")
+        .col-12.slide-right
+            h1 #{serviceDetails.name}
+            p #{serviceDetails.description}
 
-    .container-fluid.mb-5
-        .row
-            .col-lg-6
-                h2.mb-3 Descripción
-                p #{serviceDetails.description}
-            .col-lg-6
-                h2.mb-3 Servicios
-
-                #accordionExample.accordion.accordion-flush
-                    each topic, key in serviceDetails.topics
-                        .accordion-item
-                            h3.accordion-header(id='heading' + key)
-                                button.accordion-button(type='button' data-bs-toggle='collapse' data-bs-target='#collapse' + key, aria-controls='collapse' + key) #{topic.name}
-                            if topic.items.length
-                                .accordion-collapse.collapse(aria-labelledby='heading' + key data-bs-parent='#accordionExample',aria-expanded="false", id='collapse' + key)
-                                    .accordion-body
-                                        each item, key in topic.items
-                                            p - #{item}
+    .container-fluid.service-info.py-5
+        h2 Subservicios
+        .subservice.mt-4
+            .subservice-content
+                img(src=serviceDetails.topics.img, alt="subservice-img")
+                div
+                    each item, key in serviceDetails.topics.items
+                        p <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm-1.999 14.413-3.713-3.705L7.7 11.292l2.299 2.295 5.294-5.294 1.414 1.414-6.706 6.706z"></path></svg>#{item}

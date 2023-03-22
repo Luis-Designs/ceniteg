@@ -16,7 +16,9 @@
   },
   "dependencies": {
     "@popperjs/core": "^2.11.6",
+    "@types/scrollreveal": "^0.0.8",
     "bootstrap": "^5.2.3",
-    "push-dir": "^0.4.1"
+    "push-dir": "^0.4.1",
+    "scrollreveal": "^4.0.9"
   }
 }

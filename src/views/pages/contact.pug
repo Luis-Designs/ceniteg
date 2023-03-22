@@ -6,23 +6,43 @@ block consts
 
 
 block content
-    .container-fluid.py-5
-        .row.d-flex.flex-column.flex-lg-row 
-            .col-md-6.d-flex.justify-content-center
-                img(src="https://res.cloudinary.com/dokwefr5i/image/upload/v1678161351/Ceniteg/giphy_1_fdukjs.gif", alt="Science baby")
-            .col-md-6.d-flex.flex-column.form-contact.align-items-center.mt-2.mt-md-0
-                h1 Contacto
-                form(action="#", method="post")
-                    .col-12.inputgroup
-                        input.form-control(type="text",name="name", placeholder="Ingrese su nombre")
-                    .inputgroup
-                        input.form-control(type="text",name="email", placeholder="Ingrese su correo")
-                    .inputgroup
-                        input.form-control(type="text",name="subject", placeholder="Asunto")
-                    .inputgroup
-                        textarea.form-control#message(name="message", placeholder="Ingrese su mensaje")
-                    .inputgroup
-                        button.btn.btn-primary.btn-lg(type="submit") Enviar mensaje
+    .container-fluid.hero.hero-contact.py-5
+        .hero-info
+            H1 CONTACTO
+            span <a href="#">Home</a> / <a href="#">Contact</a>
+    .container-fluid.contact-info.py-4
+        .contact-info-data
+            div 
+                div
+                    <svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 24 24"><path d="m20.487 17.14-4.065-3.696a1.001 1.001 0 0 0-1.391.043l-2.393 2.461c-.576-.11-1.734-.471-2.926-1.66-1.192-1.193-1.553-2.354-1.66-2.926l2.459-2.394a1 1 0 0 0 .043-1.391L6.859 3.513a1 1 0 0 0-1.391-.087l-2.17 1.861a1 1 0 0 0-.29.649c-.015.25-.301 6.172 4.291 10.766C11.305 20.707 16.323 21 17.705 21c.202 0 .326-.006.359-.008a.992.992 0 0 0 .648-.291l1.86-2.171a.997.997 0 0 0-.085-1.39z"></path></svg>
+                span +51 945 297 232
+                span +51 913 295 489
+            
+            div 
+                div
+                    <svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 24 24"><path d="M12 14c2.206 0 4-1.794 4-4s-1.794-4-4-4-4 1.794-4 4 1.794 4 4 4zm0-6c1.103 0 2 .897 2 2s-.897 2-2 2-2-.897-2-2 .897-2 2-2z"></path><path d="M11.42 21.814a.998.998 0 0 0 1.16 0C12.884 21.599 20.029 16.44 20 10c0-4.411-3.589-8-8-8S4 5.589 4 9.995c-.029 6.445 7.116 11.604 7.42 11.819zM12 4c3.309 0 6 2.691 6 6.005.021 4.438-4.388 8.423-6 9.73-1.611-1.308-6.021-5.294-6-9.735 0-3.309 2.691-6 6-6z"></path></svg>
+                span Cal. Carlos Marcelo Corne Nro. 279
+                span Urb. San Andrés I Etapa, Trujillo
+                span La Libertad, Perú
+            
+            div 
+                div
+                    <svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 24 24"><path d="M20 4H4c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zm0 2v.511l-8 6.223-8-6.222V6h16zM4 18V9.044l7.386 5.745a.994.994 0 0 0 1.228 0L20 9.044 20.002 18H4z"></path></svg>
+                span info@ceniteg.com
+    .container-fluid.hero.hero-contact-form.py-5
+    .container-fluid.contact-form
+        .contact-form-fields
+            h2 ¡Sucríbete!
+            span Llene todos los campos
+            form#formContactCeniteg(action="https://script.google.com/macros/s/AKfycbyakHR2_DFVy8wPpENQXGoBx-6HUEYRBqefJdIh_dVUAwwnn0h5ZQdFAvBJdo9f_YvG/exec", method="post")
+                .inputgroup
+                    input.form-control(type="text",name="name", placeholder="Ingrese su nombre", required='', maxlength='120')
+                    input.form-control(type="email",name="email", placeholder="Ingrese su correo", required='')
+                    input.form-control(type="number",id='phone',name="phone", placeholder="Ingrese su teléfono", required='', max="999999999")
+                .inputgroup
+                    textarea.form-control#message(name="requeriment", placeholder="Ingrese su requerimiento", required='')
+                .button-form
+                    button.btn.btn-primary.btn-lg(type="submit") Enviar mensaje
                     
                     
 

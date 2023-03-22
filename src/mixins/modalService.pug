@@ -1,6 +1,6 @@
 mixin modalService(title, body, key)
     // Button trigger modal
-    button.btn.btn-primary.px-4(type='button' data-bs-toggle='modal' data-bs-target='#' + 'exampleModal' + key) Servicios
+    button(type='button' data-bs-toggle='modal' data-bs-target='#' + 'exampleModal' + key) Servicios
     // Modal
     .modal.fade(id='exampleModal'+key, tabindex='-1' aria-labelledby='exampleModal'+key+'Label' aria-hidden='true')
         .modal-dialog
@@ -10,6 +10,6 @@ mixin modalService(title, body, key)
                     button.btn-close(type='button' data-bs-dismiss='modal' aria-label='Close')
                 .modal-body
                     each topic in body
-                        p • #{topic.name}
+                        p <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm-1.999 14.413-3.713-3.705L7.7 11.292l2.299 2.295 5.294-5.294 1.414 1.414-6.706 6.706z"></path></svg>#{topic}
                 .modal-footer
-                    button.btn.btn-primary(type='button' data-bs-dismiss='modal') Close
+                    button(type='button' data-bs-dismiss='modal') Close

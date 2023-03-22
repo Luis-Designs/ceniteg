@@ -1,0 +1,151 @@
+@import '../base/_variables'
+
+.hero
+
+    &-contact
+        background-image: url('https://res.cloudinary.com/dokwefr5i/image/upload/v1679490612/Ceniteg/contactanos_p1uypp.jpg')
+        height: 45vh
+        display: flex
+        justify-content: space-evenly
+        align-items: center
+
+    &-info
+        border-radius: 20px
+        background-color: rgba(99, 128, 198, .8)
+        padding: 2% 4%
+        z-index: 100
+        color: $white
+        text-align: center
+
+        a
+            color: $white
+
+.contact-info
+    // height: 40vh
+    display: flex
+    justify-content: center
+    padding: 3% 0 !important
+
+    &-data
+        display: flex
+        flex-wrap: wrap
+        width: 80%
+        justify-content: space-evenly
+        border-radius: 28px
+
+        div
+            display: flex
+            flex-direction: column
+            align-items: center
+            color: $blue-strong
+
+            & div
+                display: flex
+                justify-content: center
+                align-items: center
+                margin: 12px 0
+                height: 100px
+                width: 100px
+                border-radius: 50%
+                border: 1px solid $purple-strong
+
+                & svg
+                    fill: $purple-strong
+
+.hero-contact-form
+    background-image: url('https://res.cloudinary.com/dokwefr5i/image/upload/v1679490612/Ceniteg/contactanos_p1uypp.jpg')
+    height: 45vh
+    display: flex
+    justify-content: space-evenly
+    align-items: center
+
+.contact-form
+    display: flex
+    justify-content: center
+    position: relative
+    z-index: 100
+    transform: translateY(-40%)
+    margin: 0 0 -8% 0
+
+    &-fields
+        border-radius: 20px
+        background-color: 99, 127, 198
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px
+        // background-color: rgba(99, 128, 198, .6)
+        background-color: $white
+        width: 80%
+        display: flex
+        flex-direction: column
+        align-items: center
+        padding: 24px 0 28px 0
+        margin: 16px 0
+        color: $purple-strong
+
+        h2
+            text-align: center
+            font-size: 44px
+
+        span
+            font-size: 14px
+            color: $purple-strong
+
+        form
+            width: 80%
+            margin: 20px 0 0 0
+            display: flex
+            flex-wrap: wrap
+
+            .inputgroup
+                width: 50%
+                padding: 12px 12px 0
+                margin: 0 0 20px
+
+                & input:focus,
+                & textarea:focus
+                    box-shadow: none !important
+                    border: 1px solid $purple-strong
+
+                & input:first-child,
+                & input:nth-child(2)
+                    margin: 0 0 16px
+
+                textarea
+                    height: 100%
+
+            .button-form
+                width: 100%
+                display: flex
+                justify-content: center
+
+                button
+                    padding: 6px 32px
+                    border-radius: 12px
+                    background-color: $purple-strong
+                    border-radius: 2px solid $purple-strong
+
+                
+
+@media screen and (max-width: 520px)
+    .contact-form
+        margin: 0 0 -48% 0
+
+        &-fields
+            width: 90%
+
+    .contact-info
+        padding: 8% 0 !important
+
+    form
+        display: flex
+        flex-wrap: wrap
+
+        .inputgroup
+            width: 100% !important
+            padding: 12px 12px 0
+            margin: 0 0 0 !important
+
+            textarea
+                height: 200% !important
+
+        .button-form
+            margin: 32% 0 0

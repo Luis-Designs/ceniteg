@@ -4,52 +4,28 @@ block consts
     - var title = "Nosotros"
     - var dir = ''
 
-
-append css
-    link(rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css' integrity='sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==' crossorigin='anonymous')
-
-append script
-    script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js')
-    script(src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js' integrity='sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==' crossorigin='anonymous')
-
 block content    
-    main 
-        section.container-fluid.hero-about
-         .row.text-white
-          .col-lg-6.hero-about-text
-            h1.text-center
-                | &iquest;Quienes somos?
+    .video-about
+        video(autoplay='' muted='' playsinline='' loop='', src='https://res.cloudinary.com/dokwefr5i/video/upload/v1679437171/Ceniteg/production_ID_4474926_h76hcv.mp4') 
+        section.container-fluid
+          .col-12.slide-right
+            h1
+                | &iquest;Quiénes somos?
             p
-                | Ceniteg es una empresa consultora que brinda asesor&iacute;a y
-                | soluciones integrales en Miner&iacute;a. Los servicios de nuestra
-                | empresa abarcan todo el ciclo de vida de los proyectos, desde el
-                | dise&ntilde;o, exploraci&oacute;n, estudios de factibilidad, planicaci&oacute;n,
-                | benecio, comercializaci&oacute;n y hasta el cierre de los mismos.
-        
-          img.col-lg-6.m-auto.d-none.d-lg-block(src="https://www.desdeadentro.pe/wp-content/uploads/2021/02/foto15.png", alt="about image")
+                | Somos una organización dedicada a impulsar el desarrollo de proyectos que generan valor a nuestros clientes del sector minería, gestión ambiental y producción, mediante la aplicación de ingeniería, transferencia tecnológica y educación.
+            //- p
+            //-     | Nuestra cultura está basada en la calidad, la mejora continua, el cuidado del medio ambiente, la seguridad y la responsabilidad social, siendo la persona lo más importante para nosotros.
+            //- p
+            //-     | Brindamos soluciones globales, innovadoras y accesibles desde el año 2014.
 
-    section.container-fluid.d-flex.flex-wrap.justify-content-evenly.pt-5            
-        .card.mb-5(style='width: 16rem;')
-            img.card-img-top(src='https://png.pngtree.com/png-vector/20200319/ourlarge/pngtree-target-business-concept-businessman-standing-on-flying-dart-to-achieve-business-png-image_2158012.jpg' alt='...')
-            h5.card-title Nuestro Proposito
-            p.card-text
-                | Nos dedicamos a gestionar, aplicar y transferir conocimiento, innovación y tecnología, mediante capacitaciones, asesorías y soluciones que agregan valor a nuestros clientes del ámbito minero, ambiental y otros sectores productivos.
+    section.goals.mt-5  
+        div.py-5
+            include ../../partials/sections/goals
 
-        .card.mb-5(style='width: 16rem;')
-            img.card-img-top(src='https://png.pngtree.com/png-vector/20200319/ourlarge/pngtree-target-business-concept-businessman-standing-on-flying-dart-to-achieve-business-png-image_2158012.jpg' alt='...')
-            h5.card-title Nuestra Mision
-            p.card-text
-                | Llevar lo mejor en conocimiento, soluciones e innovación en ingeniería para nuestros clientes del rubro minero e industrial.
-
-        .card.mb-5(style='width: 16rem;')
-            img.card-img-top(src='https://png.pngtree.com/png-vector/20200319/ourlarge/pngtree-target-business-concept-businessman-standing-on-flying-dart-to-achieve-business-png-image_2158012.jpg' alt='...')
-            h5.card-title Nuestra Vision
-            p.card-text
-                | Consolidarnos como la empresa líder del país brindando soluciones innovadoras en eciencia y conabilidad.
-
-    h2.container-fluid.d-flex.flex-wrap.justify-content-evenly NUESTRO EQUIPO
-    section.container-fluid.d-flex.flex-wrap.justify-content-evenly.py-5
-        include ../../partials/sections/carouselEquip
+    section.container-fluid.py-5.our-equip
+        h2 NUESTRO EQUIPO
+        .container-fluid.d-flex.flex-wrap.justify-content-evenly.pt-3.pb-2
+            include ../../partials/sections/equip
 
     
     

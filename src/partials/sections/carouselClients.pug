@@ -1,27 +1,45 @@
-link(rel="stylesheet", href="/src/assets/scss/carouselServices.scss")  
-
 include ../../data/clients
-.w-100
-  .col-10.m-auto
-    .owl-carousel
-      each client, i in clients
-        .item
-          img(src=client, alt='carousel-img-' + i)
-          
+
+.swiper.mySwiper
+  .swiper-wrapper
+    each client, key in clients
+      .swiper-slide
+        img(src=client, alt="client-"+ key)
+  .swiper-button-next
+  .swiper-button-prev
+  .swiper-pagination
+
 script.
-  $('.owl-carousel').owlCarousel({
+  var swiper = new Swiper('.mySwiper', {
+  slidesPerView: 3,
+  //- centeredSlides: false,
+  grabCursor: true,
   loop: true,
-  margin: 15,
-  nav: true,
-  responsive: {
+  //- keyboard: {
+  //- enabled: true,
+  //- },
+  autoplay: {
+  delay: 2500,
+  disableOnInteraction: false,
+  },
+  breakpoints: {
   0: {
-  items: 1,
+  slidesPerView: 1,
   },
-  600: {
-  items: 2,
+  520: {
+  slidesPerView: 2,
   },
-  1000: {
-  items: 3,
+  950: {
+  slidesPerView: 3,
   },
   },
-  });
+  navigation: {
+  nextEl: '.swiper-button-next',
+  prevEl: '.swiper-button-prev',
+  },
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+    dynamicBullets: true,
+  }
+  });    

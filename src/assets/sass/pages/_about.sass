@@ -1,0 +1,148 @@
+@import '../base/_variables'
+
+.video-about
+    position: relative
+    overflow: hidden
+    width: 100%
+    height: 85vh
+
+    & video
+        position: absolute
+        width: 100%
+        height: 100%
+        object-fit: cover
+        top: 0
+        left: 0
+
+    & section.container-fluid
+        position: absolute
+        height: 100%
+        display: flex
+        align-items: center
+        color: $white
+        background-color: rgba(0, 0, 0, .3)
+        z-index: 100
+
+        & h1
+            font-size: 56px
+            font-weight: 800
+            margin: 0 0 2% 8%
+            text-align: justify
+
+        & p
+            margin: 0 0 2% 8%
+            padding: 0 44% 0 0
+            font-size: 24px
+            text-align: justify
+
+@media screen and (max-width: 520px)
+    .video-about
+        & section.container-fluid
+            h1
+                margin: 0 2% 2% 2%
+                font-size: 36px
+            p
+                margin: 8% 2% 10% 2%
+                font-size: 18px
+                padding: 0 0 0 0
+
+.goals
+    background-image: url('https://res.cloudinary.com/dokwefr5i/image/upload/v1679516713/Ceniteg/goals_pv3hku.jpg')
+    background-size: cover
+    width: 100%
+
+    &>div
+        height: 100%
+        width: 100%
+        display: flex
+        flex-direction: column
+        align-items: end
+        background-color: rgba(25, 51, 76, .6)
+
+        & div
+            border: 1px solid $yellow
+            border-width: 0 0 0 8px
+            background-color: $white
+            color: $blue-strong
+            margin: 0 4% 0 0
+            padding: 1% 2% 2%
+
+            & h4
+                font-size: 36px
+                font-weight: bold
+                margin: 2% 0 2% 0
+
+            & p
+                font-size: 18px
+                text-align: justify
+                padding: 0 0 1% 0
+
+        & div:first-child,
+        & div:nth-child(2)
+            margin: 0 4% 2% 0
+
+
+
+.our-equip
+    &>h2
+        text-align: center
+        font-size: 44px
+        color: $blue-strong
+        font-weight: 800
+
+    &-integrants
+        display: flex
+        justify-content: space-evenly
+        align-items: center
+        flex-wrap: wrap
+        width: 100%
+
+        & .item
+            // background-color: $yellow
+            background-color: $blue-strong
+            // background-color: rgba(99, 128, 198, .5)
+            display: flex
+            width: 20rem
+            justify-content: center
+            align-items: center
+            padding: 2% 1%
+            margin: 1%
+            border-radius: 16px
+
+            img
+                width: 120px !important
+                height: 120px
+                aspect-ratio: 1/1
+                border-radius: 50%
+
+            &-description
+                color: #fff
+                padding: 0 0 0 4%
+
+                .social-links a
+                    padding: 0
+                    margin: 0 8px 0 0
+                    background-color: transparent
+
+                    & svg
+                        fill: #fff
+
+                    &:hover svg
+                        fill: $blue-strong
+                    &:hover
+                        background-color: transparent
+
+@media screen and (max-width: 800px)
+    .item
+        width: 100%
+
+        img
+            width: 120px !important
+            height: 120px
+            aspect-ratio: 1/1
+            border-radius: 50%
+
+    .social-links a
+        margin: 0 8px 0 0
+        padding: 0px 0px
+        background-color: transparent

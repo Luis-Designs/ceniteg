@@ -1,13 +1,13 @@
 {
     "mining": {
         "name": "MINERÍA",
-        "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1678376358/Ceniteg/pexels-tom-fisk-2097855_j8nbe2.jpg",
+        "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1679444130/Ceniteg/pexels-piotr-arnoldes-6109677_claqgq.jpg",
         "alt": "imagen de minería",
         "description": "Ceniteg es una empresa consultora que brinda asesoría y soluciones integrales en Minería. Los servicios de nuestra empresa abarcan todo el ciclo de vida de los proyectos, desde el diseño, exploración, estudios de factibilidad, planicación, benecio, comercialización y hasta el cierre de los mismos.",
         "topics": {
             "gestionMinera": {
                 "name": "GESTIÓN EN MINERIA",
-                "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1678376358/Ceniteg/pexels-tom-fisk-2097855_j8nbe2.jpg",
+                "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1679459104/Ceniteg/gestion-minera_rjgfmv.jpg",
                 "items": [
                     "Planes de minado",
                     "Perforación y voladura",
@@ -19,7 +19,7 @@
             },
             "desarrolloMineros": {
                 "name": "DESARROLLO DE PROYECTOS MINEROS",
-                "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1678376358/Ceniteg/pexels-tom-fisk-2097855_j8nbe2.jpg",
+                "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1679459105/Ceniteg/desarollo-proyectos-mineros_bd0jz6.jpg",
                 "items": [
                     "Exploración de recursos minerales",
                     "Preparación",
@@ -29,7 +29,7 @@
             },
             "seguridadMinera": {
                 "name": "SEGURIDAD MINERA",
-                "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1678376358/Ceniteg/pexels-tom-fisk-2097855_j8nbe2.jpg",
+                "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1679459104/Ceniteg/gestion-minera_rjgfmv.jpg",
                 "items": [
                     "SSO (Seguridad y Salud Ocupacional)",
                     "MA (Media Ambiente)",
@@ -47,7 +47,7 @@
         "topics": {
             "gestionAmbiental": {
                 "name": "GESTIÓN E IMPACTO AMBIENTAL",
-                "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1678376358/Ceniteg/pexels-tom-fisk-2097855_j8nbe2.jpg",
+                "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1679459104/Ceniteg/impacto-ambiental_gjdodx.jpg",
                 "items": [
                     "Preparación de expedientes para permisos ambientales",
                     "Estudios de Línea Base.",
@@ -60,7 +60,7 @@
             },
             "participacionSocioAmbiental": {
                 "name": "PARTICIPACIÓN COMUNITARIA Y CONFLICTOS SOCIOAMBIENTALES",
-                "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1678376358/Ceniteg/pexels-tom-fisk-2097855_j8nbe2.jpg",
+                "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1679459105/Ceniteg/participaci%C3%B3n-ciudada_fa2n3n.jpg",
                 "items": [
                     "Estudios de Línea Base social",
                     "Estudios de Impacto Social",
@@ -85,7 +85,7 @@
     },
     "drillingBlasting": {
         "name": "PERFORACIÓN Y VOLADURA",
-        "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1678376358/Ceniteg/pexels-tom-fisk-2097855_j8nbe2.jpg",
+        "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1679444311/Ceniteg/pexels-islandhopper-x-14840752_wv99sd.jpg",
         "alt": "imagen de perforación y voladura",
         "description": "Nuestro plantel profesional realiza trabajos en las más variadas situaciones que requieran uso de explosivos para fragmentar rocas y otros materiales diseño en ingeniería; a su vez están en constante capacitación las últimas tecnologías empleadas en voladura.",
         "topics": {
@@ -127,7 +127,7 @@
     },
     "qualityManagement": {
         "name": "SISTEMA DE GESTIÓN DE CALIDAD ISO 9001",
-        "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1678376358/Ceniteg/pexels-tom-fisk-2097855_j8nbe2.jpg",
+        "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1679444315/Ceniteg/pexels-pixabay-416405_rqn5tr.jpg",
         "alt": "imagen de gestión de calidad ISO 9001",
         "description": "Ceniteg cuenta con una gama de servicios que ayudaran a las empresas a cumplir sus objetivos de una manera más sostenible.",
         "topics": {
@@ -160,7 +160,7 @@
     },
     "environmentalManagement": {
         "name": "SISTEMA DE GESTIÓN AMBIENTAL",
-        "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1678376358/Ceniteg/pexels-tom-fisk-2097855_j8nbe2.jpg",
+        "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1679444317/Ceniteg/pexels-mikhail-nilov-8297445_kjsfhh.jpg",
         "alt": "imagen de gestión de calidad ambiental",
         "description": "Ceniteg contribuye de manera decisiva en la consolidación de una cultura de desarrollo ambiental sustentable en el sector empresarial, permitiendo el acceso a tecnologías y procedimientos más ecientes, rentables y de menor impacto ambiental.",
         "topics": {

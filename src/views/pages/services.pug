@@ -12,28 +12,30 @@ append script
     
 
 block content
-    .container-fluid.hero.hero-services
-        .row
-            .col-lg-8.hero-services-text(data-aos="fade-right")
-                h1.display-5.fw-bold.lh-1.mb-3 Asesoría y Soluciones Integrales en Minería y Medio Ambiente
-                p.lead.fs-4 Nuestra empresa ofrece servicios de asesoría y soluciones integrales en el sector minero, ambiental y otros sectores productivos, para ayudar a nuestros clientes a cumplir con las normas ambientales y mejorar su eficiencia operativa.
+    .video-services
+        video(autoplay='' muted='' playsinline='' loop='', src='https://res.cloudinary.com/dokwefr5i/video/upload/v1679437171/Ceniteg/production_ID_4474927_drtjdy.mp4')
+        .container-fluid
+            .col-12.slide-right
+                h1 Asesoría y Soluciones Integrales en Minería y Medio Ambiente
+                p Nuestra empresa ofrece servicios de asesoría y soluciones integrales en el sector minero, ambiental y otros sectores productivos, para ayudar a nuestros clientes a cumplir con las normas ambientales y mejorar su eficiencia operativa.
 
     include ../../data/services
     include ../../mixins/modalService
-    h2.container-fluid.d-flex.flex-wrap.justify-content-evenly.pt-5(data-aos="fade-up",   data-aos-duration="1500") NUESTROS SERVICIOS
+    h2.title-services.pt-5 NUESTROS SERVICIOS
     .container-fluid.d-flex.flex-wrap.justify-content-evenly.pt-5
         each service, key in services
-            .card.col-md-6.col-lg-4.mb-5.bg-white(style='width: 22rem;',id=key, data-aos="flip-left")
+            .card.col-md-6.col-lg-4.mb-5(style='width: 22rem;',id=key)
                 .card-img-top.card-img-service(style="background-image: url('"+ service.img + "')")
                     h2 #{service.name}
                 .card-body
                     p.card-text #{service.description}
                 .card-footer
+                    +modalService(service.name, service.topics, key)
                     a(href="services/"+key+".pug") Ver Más 
 
-    h2.container-fluid.d-flex.flex-wrap.justify-content-evenly.pt-5(data-aos="fade-up",   data-aos-duration="1500") NUESTROS CLIENTES
+    h2.container-fluid.d-flex.flex-wrap.justify-content-evenly.pt-5 NUESTROS CLIENTES
     
-    .container-fluid.d-flex.flex-wrap.justify-content-evenly.pb-5(data-aos="zoom-in")
+    .container-fluid.d-flex.flex-wrap.justify-content-evenly.pb-5
         include ../../partials/sections/carouselClients
     
       

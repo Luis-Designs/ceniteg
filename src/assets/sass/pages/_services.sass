@@ -1,27 +1,53 @@
 @import '../base/_variables'
 
-.hero-services
-    background-image: url('https://res.cloudinary.com/dokwefr5i/image/upload/v1678376358/Ceniteg/pexels-tom-fisk-2097855_j8nbe2.jpg')
+.video-services
+    position: relative
+    overflow: hidden
+    width: 100%
     height: 85vh
-    display: flex
-    align-items: center
-    color: $white
 
-    &-text
+    & video
+        position: absolute
+        width: 100%
+        height: 100%
+        object-fit: cover
+        top: 0
+        left: 0
+
+    & .container-fluid
+        position: absolute
+        height: 100%
+        display: flex
+        align-items: center
+        color: $white
+        background-color: rgba(0, 0, 0, .3)
         z-index: 100
 
         & h1
-            padding: 0 0 4% 12%
+            font-size: 56px
+            margin: 0 0 2% 8%
+            padding: 0 44% 0 0
+            text-align: justify
+            font-weight: 800
 
         & p
-            padding: 0 0 0 12%
+            margin: 0 0 2% 8%
+            padding: 0 44% 0 0
+            font-size: 24px
+            text-align: justify
 
 @media screen and (max-width: 520px)
-    .hero-services-text
-        h1
-            font-size: 32px
-        p
-            font-size: 16px !important
+    .video-services
+        & .container-fluid
+            h1
+                margin: 0 2% 2% 2%
+                padding: 0 0 0 0
+                font-size: 32px
+
+            p
+                margin: 8% 2% 10% 2%
+                font-size: 16px
+                padding: 0 0 0 0
 
 .card-img-service
     background-size: cover
@@ -32,11 +58,11 @@
     justify-content: center
     align-items: center
     position: relative
-    z-index: -100
+    z-index: 100
 
     & h2
         text-align: center
-        font-size: 18px
+        font-size: 32px
         font-weight: bold
         color: #fff
         padding: 0 8%
@@ -53,24 +79,41 @@
         opacity: 0.8
         z-index: -100
 
+.card-body
+    background-color: $blue-strong
+    font-size: 18px
+    padding: 12px 28px
+    color: $white
+
 .card-footer
+    background-color: $blue-strong
     display: flex
     justify-content: center
-    background-color: $white
     border-width: 0 1px 1px 1px
 
+    & button:not(.btn-close),
+    & a
+        padding: 6px 32px
+        border: 2px solid $yellow
+        border-radius: 20px
+        font-weight: 600
+        margin: 0 2px
+
+    & button:not(.btn-close):hover,
     & a
         color: $white
-        background-color: $purple-strong
-        border: 2px solid $purple-strong
-        padding: 6px 32px
-        border-radius: 20px
+        background-color: $yellow
 
+    & button:not(.btn-close),
     & a:hover
-        color: $purple-strong
-        background-color: $white
-        border: 2px solid $purple-strong
-        font-weight: bold
+        color: $yellow
+        background-color: transparent
+
+@media only screen and (max-width: 520px)
+    .card-footer
+        & button,
+        & a
+            padding: 6px 24px
 
 /* SWIPER CSS */
 .swiper
@@ -122,63 +165,79 @@
         p
             padding: 0 0 0 12%
 
+.title-services
+    font-size: 48px
+    font-weight: 600
+    color: $blue-strong
+    text-align: center
+
 .service-info
+    // background-color: $blue
     width: 100%
     display: flex
     flex-direction: column
     align-items: center
 
     h2
+        font-size: 48px
+        font-weight: 600
+        color: $blue-strong
         text-align: center
 
 .subservice
-    color: transparent
-    width: 84%
+    width: 88%
     display: flex
-    justify-content: space-between
+    justify-content: space-evenly
     flex-wrap: wrap
+    border: 1px solid red
 
     &-content
-        background-size: cover
+        border: 1px solid red
+        background-color: $white
+        // background: linear-gradient(to left, $purple-strong, $white)
         border-radius: 20px
         width: 30%
-        margin: 3% 0 0 0
+        margin: 4% 0 0 0
+        border-radius: 48px 48px 48px 0
         display: flex
-        justify-content: center
+        // flex-direction: column
 
-        &-info
-            display: flex
-            padding: 16% 8%
-            background-color: rgba(0, 0, 0, .4)
+        &-img
+            border-radius: 48px 0 0 0
+            background-size: cover
             width: 100%
-            height: 100%
-            min-height: 300px
-            border-radius: 20px
-            flex-direction: column
-            line-height: 1.8
+            height: 400px
+            // min-height: 300px
+            border: 1px solid red
 
-            & span svg
-                fill: transparent
-
-            &:hover
-                background-color: rgba(0, 0, 0, .6)
-                // cursor: pointer
+            & div
+                border-radius: 48px 0 0 0
+                padding: 4%
+                width: 100%
+                height: 100%
+                display: flex
+                align-items: center
                 color: $white
 
-                & span svg
-                    fill: $white
+                background-color: rgba(0, 0, 0, .3)
 
-@media screen and (max-width: 920px)
-    .subservice
-        &-content
-            margin: 8% 0 0 0
-            width: 48%
+                & h3
+                    text-align: center
+                    font-size: 28px
+                    font-weight: 800
 
-@media screen and (max-width: 520px)
-    .subservice
-        &-content
-            width: 100%
-            color: $white
-            &-info
-                & span svg
-                    fill: $white
+        
+// @media screen and (max-width: 920px)
+//     .subservice
+//         &-content
+//             margin: 8% 0 0 0
+//             width: 48%
+
+// @media screen and (max-width: 520px)
+//     .subservice
+//         &-content
+//             width: 100%
+//             color: $white
+//             &-info
+//                 & span svg
+//                     fill: $white

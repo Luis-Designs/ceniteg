@@ -1,23 +1,24 @@
 include ../data/services
+include modalService
 
 mixin serviceInfo(service)
     - var serviceDetails = services[service]
 
-    .container-fluid.d-flex.justify-content-center.align-items-center.text-white.mb-5.hero.hero-info-service(style="background-image: url('" + serviceDetails.img + "')")
+    .container-fluid.d-flex.justify-content-center.align-items-center.text-white.hero.hero-info-service(style="background-image: url('" + serviceDetails.img + "')")
         .row
-            .col-lg-8
+            .col-lg-8.slide-right
                 h1 #{serviceDetails.name}
                 p #{serviceDetails.description}
 
-    .container-fluid.service-info.mb-5
+    .container-fluid.service-info.py-5
         h2 Subservicios
         .subservice
             each topic, key in serviceDetails.topics
-                .subservice-content(style="background-image: url('"+ topic.img +"')")
-                    .subservice-content-info
-                        if !topic.items.length
-                            span <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M16 2H8C4.691 2 2 4.691 2 8v13a1 1 0 0 0 1 1h13c3.309 0 6-2.691 6-6V8c0-3.309-2.691-6-6-6zm1 11h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"></path></svg> #{topic.name}
-
-                        else
-                            each item, key in topic.items
-                                span <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M16 2H8C4.691 2 2 4.691 2 8v13a1 1 0 0 0 1 1h13c3.309 0 6-2.691 6-6V8c0-3.309-2.691-6-6-6zm1 11h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"></path></svg> #{item}
+                .subservice-content
+                    .subservice-content-img(style="background-image: url('" + topic.img + "')")
+                        div
+                            h3 #{topic.name} 
+                            if topic.items.length
+                                +modalService(topic.name, topic.items, key)
+                            else
+                                span 

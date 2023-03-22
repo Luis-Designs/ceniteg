@@ -1,57 +1,71 @@
 @import '../base/_variables'
 
-.hero-home
-    background-color: $purple-strong
+.video-home
+    position: relative
+    overflow: hidden
+    width: 100%
     height: 85vh
-    color: $white
-    display: flex
-    justify-content: center
-    flex-direction: column
 
-    &::after
-        content: ''
-        z-index: 100
-        height: 100%
-        width: 100%
-        display: block
+    & video
         position: absolute
+        width: 100%
+        height: 100%
+        object-fit: cover
         top: 0
         left: 0
-        background-image: url('https://res.cloudinary.com/dokwefr5i/image/upload/v1679029174/Ceniteg/hero-inicio-wave_p2e5js.jpg')
-        background-repeat: no-repeat
-        background-size: cover
-        clip-path: polygon(75% 0, 100% 0%, 100% 100%, 50% 100%)
-    & div
-        z-index: 200
 
-    & div:first-child
-        h1
-            margin: 0 0 2% 8%
-            font-size: 56px
-            font-weight: 800
+    & .container-fluid
+        position: absolute
+        height: 100%
+        display: flex
+        align-items: center
+        color: $white
+        background-color: rgba(0, 0, 0, .3)
+        z-index: 100
 
-            & svg
-                fill: $yellow
+        & div:first-child
+            h1
+                margin: 0 0 2% 8%
+                font-size: 56px
+                font-weight: 800
+                text-align: justify
 
-        p
-            margin: 0 0 2% 8%
-            padding: 0 44% 0 0
-            font-size: 28px
+                & svg
+                    fill: $yellow
 
-    & div:nth-child(2)
-        a#btnBrochure
-            margin: 0 0 0 8%
-            border: 2px solid $yellow
-            background-color: $yellow
-            padding: 4px 32px
-            color: $white
-            border-radius: 28px
-            font-weight: 600
-            font-size: 20px
+            p
+                margin: 0 0 2% 8%
+                text-align: justify
+                padding: 0 44% 0 0
+                font-size: 28px
 
-            &:hover
-                cursor: pointer
-                background-color: transparent
+            a#btnBrochure
+                margin: 0 0 0 8%
+                border: 2px solid $yellow
+                background-color: $yellow
+                padding: 4px 32px
+                color: $white
+                border-radius: 28px
+                font-weight: 600
+                font-size: 20px
+
+                &:hover
+                    cursor: pointer
+                    background-color: transparent
+
+@media screen and (max-width: 520px)
+    .video-home
+        & .container-fluid
+            & div:first-child
+                h1
+                    margin: 0 2% 2% 2%
+                    font-size: 36px
+                p
+                    margin: 8% 2% 10% 2%
+                    font-size: 18px
+                    padding: 0 0 0 0
+                a#btnBrochure
+                    margin: 0 0 0 2%
 
 .card-home
     width: 100%

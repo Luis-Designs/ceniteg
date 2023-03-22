@@ -1,31 +1,3 @@
-import 'bootstrap';
-
-import ScrollReveal from 'scrollreveal';
-
-ScrollReveal().reveal('.card', {
-  reset: true,
-  delay: 200,
-  interval: 200,
-});
-
-ScrollReveal().reveal('.slide-right', {
-  origin: 'right',
-  distance: '50%',
-  duration: 1000,
-  easing: 'ease-in-out',
-  reset: true,
-});
-
-ScrollReveal().reveal('.flip', {
-  reset: true,
-  delay: 200,
-  interval: 200,
-  rotate: {
-    x: 20,
-    z: 20,
-  },
-});
-
 const inputElement = document.getElementById('phone') as HTMLInputElement;
 const MAX_DIGITS = 9;
 

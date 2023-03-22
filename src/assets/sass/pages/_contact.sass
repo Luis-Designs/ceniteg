@@ -100,6 +100,11 @@
                 padding: 12px 12px 0
                 margin: 0 0 20px
 
+                & input:focus,
+                & textarea:focus
+                    box-shadow: none !important
+                    border: 1px solid $purple-strong
+
                 & input:first-child,
                 & input:nth-child(2)
                     margin: 0 0 16px
@@ -117,6 +122,8 @@
                     border-radius: 12px
                     background-color: $purple-strong
                     border-radius: 2px solid $purple-strong
+
+                
 
 @media screen and (max-width: 520px)
     .contact-form

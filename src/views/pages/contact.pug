@@ -34,13 +34,13 @@ block content
         .contact-form-fields
             h2 ¡Sucríbete!
             span Llene todos los campos
-            form(action="#", method="post")
+            form#formContactCeniteg(action="https://script.google.com/macros/s/AKfycbyakHR2_DFVy8wPpENQXGoBx-6HUEYRBqefJdIh_dVUAwwnn0h5ZQdFAvBJdo9f_YvG/exec", method="post")
                 .inputgroup
-                    input.form-control(type="text",name="name", placeholder="Ingrese su nombre")
-                    input.form-control(type="text",name="email", placeholder="Ingrese su correo")
-                    input.form-control(type="phone",name="phone", placeholder="Ingrese su teléfono")
+                    input.form-control(type="text",name="name", placeholder="Ingrese su nombre", required='', maxlength='120')
+                    input.form-control(type="email",name="email", placeholder="Ingrese su correo", required='')
+                    input.form-control(type="number",id='phone',name="phone", placeholder="Ingrese su teléfono", required='', max="999999999")
                 .inputgroup
-                    textarea.form-control#message(name="requeriment", placeholder="Ingrese su requerimiento")
+                    textarea.form-control#message(name="requeriment", placeholder="Ingrese su requerimiento", required='')
                 .button-form
                     button.btn.btn-primary.btn-lg(type="submit") Enviar mensaje
                     

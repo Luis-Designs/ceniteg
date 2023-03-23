@@ -62,8 +62,10 @@
         & div
             border: 1px solid $yellow
             border-width: 0 0 0 8px
-            background-color: $white
-            color: $blue-strong
+            // background-color: $white
+            // color: $blue-strong
+            background-color: rgba(0, 0, 0, .2)
+            color: $white
             margin: 0 4% 0 0
             padding: 1% 2% 2%
 
@@ -81,7 +83,26 @@
         & div:nth-child(2)
             margin: 0 4% 2% 0
 
+@media screen and (max-width: 920px)
+    .goals
+        &>div
+            & div
+                border: 1px solid $yellow
+                border-width: 0 0 0 8px
+                background-color: rgba(0, 0, 0, .2)
+                color: $white
+                margin: 0 4% 0 4%
+                padding: 2% 8% 4%
 
+                & h4
+                    margin: 4% 0 4% 0
+
+                & p
+                    padding: 0 0 1% 0
+
+            & div:first-child,
+            & div:nth-child(2)
+                margin: 0 4% 4% 4%
 
 .our-equip
     &>h2

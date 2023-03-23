@@ -26,6 +26,20 @@ ScrollReveal().reveal('.flip', {
   },
 });
 
+const links = document.querySelectorAll('.navbar-nav .nav-link');
+
+for (const link of Array.from(links)) {
+  link.classList.toggle('inactive');
+}
+
+for (const link of links) {
+  const url = String(link?.getAttribute('href'));
+  if (url === location.pathname) {
+    link.classList.add('active');
+    break;
+  }
+}
+
 const inputElement = document.getElementById('phone') as HTMLInputElement;
 const MAX_DIGITS = 9;
 

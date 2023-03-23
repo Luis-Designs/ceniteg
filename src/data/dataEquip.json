@@ -1,8 +1,8 @@
 [
     {
-        "name": "Maria",
-        "role": "Developer",
-        "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1678582531/Ceniteg/pexels-pixabay-220453_pwy8dk.jpg",
+        "name": "Paolo",
+        "role": "Developer - UX/UI",
+        "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1679584740/Ceniteg/equip-four_ruwyes.jpg",
         "socialLinks": {
             "fb": "https://www.facebook.com/fanaticosdelcine/",
             "ig": "https://www.instagram.com/edteamlat/",
@@ -10,9 +10,9 @@
         }
     },
     {
-        "name": "Maria",
-        "role": "Developer",
-        "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1678582571/Ceniteg/pexels-andrea-piacquadio-774909_vue08q.jpg",
+        "name": "Pedro",
+        "role": "Contador",
+        "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1679584657/Ceniteg/equip-five_v6wjmi.jpg",
         "socialLinks": {
             "fb": "https://www.facebook.com/fanaticosdelcine/",
             "ig": "https://www.instagram.com/edteamlat/",
@@ -20,9 +20,99 @@
         }
     },
     {
-        "name": "Maria",
+        "name": "Carlos",
         "role": "Developer",
-        "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1678582588/Ceniteg/pexels-stefan-stefancik-91227_an60om.jpg",
+        "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1679584638/Ceniteg/equip-three_ukbtuw.jpg",
+        "socialLinks": {
+            "fb": "https://www.facebook.com/fanaticosdelcine/",
+            "ig": "https://www.instagram.com/edteamlat/",
+            "li": "https://www.linkedin.com/school/universidad-peruana-de-ciencias-aplicadas/"
+        }
+    },
+    {
+        "name": "Divala",
+        "role": "Developer",
+        "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1679584618/Ceniteg/equip-two_iyi3n2.jpg",
+        "socialLinks": {
+            "fb": "https://www.facebook.com/fanaticosdelcine/",
+            "ig": "https://www.instagram.com/edteamlat/",
+            "li": "https://www.linkedin.com/school/universidad-peruana-de-ciencias-aplicadas/"
+        }
+    },
+    {
+        "name": "Paolo",
+        "role": "Developer - UX/UI",
+        "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1679584740/Ceniteg/equip-four_ruwyes.jpg",
+        "socialLinks": {
+            "fb": "https://www.facebook.com/fanaticosdelcine/",
+            "ig": "https://www.instagram.com/edteamlat/",
+            "li": "https://www.linkedin.com/school/universidad-peruana-de-ciencias-aplicadas/"
+        }
+    },
+    {
+        "name": "Pedro",
+        "role": "Contador",
+        "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1679584657/Ceniteg/equip-five_v6wjmi.jpg",
+        "socialLinks": {
+            "fb": "https://www.facebook.com/fanaticosdelcine/",
+            "ig": "https://www.instagram.com/edteamlat/",
+            "li": "https://www.linkedin.com/school/universidad-peruana-de-ciencias-aplicadas/"
+        }
+    },
+    {
+        "name": "Carlos",
+        "role": "Developer",
+        "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1679584638/Ceniteg/equip-three_ukbtuw.jpg",
+        "socialLinks": {
+            "fb": "https://www.facebook.com/fanaticosdelcine/",
+            "ig": "https://www.instagram.com/edteamlat/",
+            "li": "https://www.linkedin.com/school/universidad-peruana-de-ciencias-aplicadas/"
+        }
+    },
+    {
+        "name": "Divala",
+        "role": "Developer",
+        "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1679584618/Ceniteg/equip-two_iyi3n2.jpg",
+        "socialLinks": {
+            "fb": "https://www.facebook.com/fanaticosdelcine/",
+            "ig": "https://www.instagram.com/edteamlat/",
+            "li": "https://www.linkedin.com/school/universidad-peruana-de-ciencias-aplicadas/"
+        }
+    },
+    {
+        "name": "Paolo",
+        "role": "Developer - UX/UI",
+        "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1679584740/Ceniteg/equip-four_ruwyes.jpg",
+        "socialLinks": {
+            "fb": "https://www.facebook.com/fanaticosdelcine/",
+            "ig": "https://www.instagram.com/edteamlat/",
+            "li": "https://www.linkedin.com/school/universidad-peruana-de-ciencias-aplicadas/"
+        }
+    },
+    {
+        "name": "Pedro",
+        "role": "Contador",
+        "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1679584657/Ceniteg/equip-five_v6wjmi.jpg",
+        "socialLinks": {
+            "fb": "https://www.facebook.com/fanaticosdelcine/",
+            "ig": "https://www.instagram.com/edteamlat/",
+            "li": "https://www.linkedin.com/school/universidad-peruana-de-ciencias-aplicadas/"
+        }
+    },
+    {
+        "name": "Carlos",
+        "role": "Developer",
+        "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1679584638/Ceniteg/equip-three_ukbtuw.jpg",
+        "socialLinks": {
+            "fb": "https://www.facebook.com/fanaticosdelcine/",
+            "ig": "https://www.instagram.com/edteamlat/",
+            "li": "https://www.linkedin.com/school/universidad-peruana-de-ciencias-aplicadas/"
+        }
+    },
+    {
+        "name": "Divala",
+        "role": "Developer",
+        "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1679584618/Ceniteg/equip-two_iyi3n2.jpg",
         "socialLinks": {
             "fb": "https://www.facebook.com/fanaticosdelcine/",
             "ig": "https://www.instagram.com/edteamlat/",

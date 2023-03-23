@@ -27,9 +27,12 @@ ScrollReveal().reveal('.flip', {
 });
 
 const links = document.querySelectorAll('.navbar-nav .nav-link');
-
 for (const link of Array.from(links)) {
   link.classList.toggle('inactive');
+}
+
+if (location.pathname === '/ceniteg/' || location.pathname === '/') {
+  Array.from(links)[0].classList.toggle('active');
 }
 
 for (const link of links) {

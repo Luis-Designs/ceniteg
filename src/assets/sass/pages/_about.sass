@@ -50,59 +50,89 @@
     background-image: url('https://res.cloudinary.com/dokwefr5i/image/upload/v1679516713/Ceniteg/goals_pv3hku.jpg')
     background-size: cover
     width: 100%
+    display: flex
 
     &>div
         height: 100%
         width: 100%
         display: flex
-        flex-direction: column
-        align-items: end
+        justify-content: space-evenly
+        padding: 0 4%
         background-color: rgba(25, 51, 76, .6)
 
-        & div
-            border: 1px solid $yellow
-            border-width: 0 0 0 8px
-            // background-color: $white
-            // color: $blue-strong
-            background-color: rgba(0, 0, 0, .2)
+        &>div:first-child
+            height: 100%
+            width: 30%
+            & img
+                width: 100%
+                height: 100%
+
+        &>div:last-child
+            width: 56%
             color: $white
-            margin: 0 4% 0 0
-            padding: 1% 2% 2%
+            display: flex
+            flex-direction: column
+            justify-content: space-between
 
-            & h4
-                font-size: 36px
-                font-weight: bold
-                margin: 2% 0 2% 0
+            & div
+                background-color: rgba(0, 0, 0, .2)
+                padding: 1% 2% 2%
+                border: 1px solid $yellow
+                border-width: 0 0 0 8px
+                width: 100%
 
-            & p
-                font-size: 18px
-                text-align: justify
-                padding: 0 0 1% 0
+                & h4
+                    font-size: 36px
+                    font-weight: bold
+                    margin: 2% 0 2% 0
 
-        & div:first-child,
-        & div:nth-child(2)
-            margin: 0 4% 2% 0
+                & p
+                    font-size: 18px
+                    text-align: justify
+                    padding: 0 0 1% 0
+
+            & div:nth-child(2)
+                margin: 2% 0
 
 @media screen and (max-width: 920px)
     .goals
         &>div
-            & div
-                border: 1px solid $yellow
-                border-width: 0 0 0 8px
-                background-color: rgba(0, 0, 0, .2)
+            height: 100%
+            width: 100%
+            display: flex
+            justify-content: space-evenly
+            padding: 0 4%
+            background-color: rgba(25, 51, 76, .6)
+
+            &>div:first-child
+                display: none
+
+            &>div:last-child
+                width: 100%
                 color: $white
-                margin: 0 4% 0 4%
-                padding: 2% 8% 4%
+                display: flex
+                flex-direction: column
+                justify-content: space-between
 
-                & h4
-                    margin: 4% 0 4% 0
+                & div
+                    background-color: rgba(0, 0, 0, .2)
+                    padding: 1% 2% 2%
+                    border: 1px solid $yellow
+                    border-width: 0 0 0 8px
+                    width: 100%
 
-                & p
-                    padding: 0 0 1% 0
+                    & h4
+                        font-size: 36px
+                        font-weight: bold
+                        margin: 2% 0 2% 0
 
-            & div:first-child,
-            & div:nth-child(2)
-                margin: 0 4% 4% 4%
+                    & p
+                        font-size: 18px
+                        text-align: justify
+                        padding: 0 0 1% 0
+
+                & div:nth-child(2)
+                    margin: 4% 0
 
 .our-equip
     &>h2
@@ -155,15 +185,6 @@
                         background-color: transparent
 
 @media screen and (max-width: 800px)
-    // .item
-    //     width: 100%
-
-    //     img
-    //         width: 120px !important
-    //         height: 120px
-    //         aspect-ratio: 1/1
-    //         border-radius: 50%
-
     .social-links a
         margin: 0 8px 0 0
         padding: 0px 0px

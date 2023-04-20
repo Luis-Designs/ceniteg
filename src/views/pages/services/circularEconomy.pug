@@ -1,0 +1,10 @@
+extends ../../layouts/default
+
+block consts
+    - var title = "Services - ECONOMÍA CIRCULAR"
+    - var dir = '../'
+
+block content
+    include ../../../mixins/serviceInfo
+
+    +serviceInfo('circularEconomy')

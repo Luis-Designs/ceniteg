@@ -1,11 +1,11 @@
 {
     "mining": {
         "name": "MINERIA - CIVIL",
-        "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1679444130/Ceniteg/pexels-piotr-arnoldes-6109677_claqgq.jpg",
+        "img": "https://storage.googleapis.com/ceniteg-images/MINER%C3%8DA_Y_CIVIL.jpg",
         "alt": "imagen de minería",
         "description": "Brindamos asesoría y soluciones integrales en Minería. Los servicios de nuestra empresa abarcan todo el ciclo de vida de los proyectos, desde el diseño, exploración, estudios de factibilidad, planicación, benecio, comercialización y hasta el cierre de los mismos.",
         "topics": {
-            "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1679459104/Ceniteg/gestion-minera_rjgfmv.jpg",
+            "img": "https://storage.googleapis.com/ceniteg-images/MINER%C3%8DA_Y_CIVIL.jpg",
             "items": [
                 "Levantamiento topográfico",
                 "Estudios geológicos, geotécnicos y geomecánicos",
@@ -21,11 +21,11 @@
     },
     "environmentalStudies": {
         "name": "ESTUDIOS AMBIENTALES",
-        "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1679490273/Ceniteg/ser_medio_ambiente_g7sjiy.jpg",
+        "img": "https://storage.googleapis.com/ceniteg-images/ESTUDIOS_AMBIENTALES.jpg",
         "alt": "imagen de medio ambiente",
         "description": "Nuestros servicios incluyen elaboración de estudios de impacto ambiental, monitoreos ambientales, solución de conictos socioambientales, inspecciones y auditorias, capacitaciones ambientales, manejo de residuos y gestión ambiental.",
         "topics": {
-            "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1679459104/Ceniteg/gestion-minera_rjgfmv.jpg",
+            "img": "https://storage.googleapis.com/ceniteg-images/ESTUDIOS_AMBIENTALES.jpg",
             "items": [
                 "Declaración de impacto ambiental para actividades de exploración",
                 "Gestión para la Licencia de agua",
@@ -41,11 +41,11 @@
     },
     "polvorine": {
         "name": "POLVORINES",
-        "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1679444311/Ceniteg/pexels-islandhopper-x-14840752_wv99sd.jpg",
+        "img": "https://storage.googleapis.com/ceniteg-images/POLVORINES.jpg",
         "alt": "imagen de perforación y voladura",
         "description": "Nuestro plantel profesional realiza trabajos en las más variadas situaciones que requieran uso de explosivos para fragmentar rocas y otros materiales diseño en ingeniería; a su vez están en constante capacitación las últimas tecnologías empleadas en voladura.",
         "topics": {
-            "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1678376358/Ceniteg/pexels-tom-fisk-2097855_j8nbe2.jpg",
+            "img": "https://storage.googleapis.com/ceniteg-images/POLVORINES.jpg",
             "items": [
                 "Diseño",
                 "Fabricación/ Construcción",
@@ -60,11 +60,11 @@
     },
     "drillingBlasting": {
         "name": "PERFORACION Y VOLADURA",
-        "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1679490380/Ceniteg/isoo_ttikqd.jpg",
+        "img": "https://storage.googleapis.com/ceniteg-images/PERFORACI%C3%93N_Y_VOLADURA.jpg",
         "alt": "imagen de gestión de calidad ISO 9001",
         "description": "Ceniteg cuenta con una gama de servicios que ayudaran a las empresas a cumplir sus objetivos de una manera más sostenible.",
         "topics": {
-            "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1678376358/Ceniteg/pexels-tom-fisk-2097855_j8nbe2.jpg",
+            "img": "https://storage.googleapis.com/ceniteg-images/PERFORACI%C3%93N_Y_VOLADURA.jpg",
             "items": [
                 "Asesoría y consultoría en la planeación de voladura de rocas",
                 "Técnicas innovadoras en simulación y control de la voladura mediante el uso de software",
@@ -80,11 +80,11 @@
     },
     "securityHealthWork": {
         "name": "SEGURIDAD Y SALUD EN EL TRABAJO",
-        "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1679490100/Ceniteg/serv_gestion_calidad_medio_ambiente_kqxtia.jpg",
+        "img": "https://storage.googleapis.com/ceniteg-images/SEGURIDAD_Y_SALUD.jpg",
         "alt": "imagen de gestión de calidad ambiental",
         "description": "Ceniteg contribuye de manera decisiva en la consolidación de una cultura de desarrollo ambiental sustentable en el sector empresarial, permitiendo el acceso a tecnologías y procedimientos más ecientes, rentables y de menor impacto ambiental.",
         "topics": {
-            "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1678376358/Ceniteg/pexels-tom-fisk-2097855_j8nbe2.jpg",
+            "img": "https://storage.googleapis.com/ceniteg-images/SEGURIDAD_Y_SALUD.jpg",
             "items": [
                 "Sistemas de Gestión de Seguridad y Salud en el Trabajo",
                 "Seguridad, Salud Ocupacional y Medio Ambiente",
@@ -94,11 +94,11 @@
     },
     "businessManagement": {
         "name": "GESTIÓN EMPRESARIAL",
-        "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1679490100/Ceniteg/serv_gestion_calidad_medio_ambiente_kqxtia.jpg",
+        "img": "https://storage.googleapis.com/ceniteg-images/GESTI%C3%93N_EMPRESARIAL.jpg",
         "alt": "imagen de gestión de calidad ambiental",
-        "description": "Ceniteg contribuye de manera decisiva en la consolidación de una cultura de desarrollo ambiental sustentable en el sector empresarial, permitiendo el acceso a tecnologías y procedimientos más ecientes, rentables y de menor impacto ambiental.",
+        "description": "Ceniteg contribuye en la toma de decisiones estratégicas y tácticas, la gestión de recursos humanos, financieros y materiales, la implementación de políticas y procesos, y la supervisión y evaluación del desempeño empresarial.",
         "topics": {
-            "img": "https://res.cloudinary.com/dokwefr5i/image/upload/v1678376358/Ceniteg/pexels-tom-fisk-2097855_j8nbe2.jpg",
+            "img": "https://storage.googleapis.com/ceniteg-images/GESTI%C3%93N_EMPRESARIAL.jpg",
             "items": [
                 "Monitoreo de la Calidad de Agua",
                 "Monitoreo de Calidad de Suelo",
@@ -107,6 +107,22 @@
                 "Monitoreo por Bioindicadores Ambientales",
                 "Monitoreo y Caracterización de Efluentes",
                 "Industriales y Domésticos"
+            ]
+        }
+    },
+    "circularEconomy": {
+        "name": "ECONOMÍA CIRCULAR",
+        "img": "https://storage.googleapis.com/ceniteg-images/ECONOM%C3%8DA_CIRCULAR.jpg",
+        "alt": "imagen de economía circular",
+        "description": "En Ceniteg maximizamos la eficiencia y la sostenibilidad en la producción y consumo de bienes y servicios, reduciendo la generación de residuos y emisiones y fomentando la reutilización, reparación y reciclaje de materiales.",
+        "topics": {
+            "img": "https://storage.googleapis.com/ceniteg-images/ECONOM%C3%8DA_CIRCULAR.jpg",
+            "items": [
+                "Taller sobre Economía Circular",
+                "Curso: Diseña e implementa tu Modelo Circular",
+                "Diagnostica tu nivel de Circularidad",
+                "Servicio de asesoría y acompañamiento para diseñar tu Modelo Circular",
+                "Servicio de asesoría y acompañamiento para diseñar e implementar tu Modelo Circular"
             ]
         }
     }

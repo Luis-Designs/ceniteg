@@ -28,16 +28,15 @@
                 margin: 0 0 2% 8%
                 font-size: 56px
                 font-weight: 800
-                text-align: justify
 
                 & svg
                     fill: $yellow
 
             p
-                margin: 0 0 2% 8%
+                margin: 0 0 1% 8%
                 text-align: justify
                 padding: 0 44% 0 0
-                font-size: 28px
+                font-size: 20px
 
             a#btnBrochure
                 margin: 0 0 0 8%
@@ -53,16 +52,26 @@
                     cursor: pointer
                     background-color: transparent
 
-@media screen and (max-width: 520px)
+@media screen and (max-width: 768px)
     .video-home
         & .container-fluid
             & div:first-child
                 h1
-                    margin: 0 2% 2% 2%
+                    margin: 0 2% 4% 2%
                     font-size: 36px
                 p
-                    margin: 8% 2% 10% 2%
+                    margin: 0 2% 2% 2%
                     font-size: 18px
+                    padding: 0 0 0 0
+                a#btnBrochure
+                    margin: 0 0 0 2%
+
+@media screen and (max-width: 520px)
+    .video-home
+        & .container-fluid
+            & div:first-child
+                p
+                    font-size: 16px
                     padding: 0 0 0 0
                 a#btnBrochure
                     margin: 0 0 0 2%
@@ -85,7 +94,7 @@
             background-size: cover
             background-position: top center
             background-repeat: no-repeat
-            background-image: url('https://res.cloudinary.com/dokwefr5i/image/upload/v1679489597/Ceniteg/gerente_o1j7o0.jpg')
+            background-image: url('https://storage.googleapis.com/ceniteg-images/INICIO_SLOGAN.jpg')
             border-radius: 10px 0 0 10px
 
         & div:last-child
@@ -112,3 +121,29 @@
             & h4
                 z-index: 200
                 font-size: 28px
+
+@media screen and (max-width: 920px)
+    .card-home .manager-intro
+        width: 100%
+
+@media screen and (max-width: 520px)
+    .card-home
+        & .manager-intro
+            flex-direction: column
+
+            & div:first-child
+                width: 100%
+                height: 240px
+                border-radius: 10px 10px 0 0
+
+            & div:last-child
+                width: 100%
+
+                & p
+                    font-size: 20px
+
+                & h3
+                    font-size: 32px
+
+                & h4
+                    font-size: 20px

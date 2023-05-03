@@ -25,9 +25,10 @@
 
         & div:first-child
             h1
-                margin: 0 0 2% 8%
+                margin: 0 30% 2% 8%
                 font-size: 56px
                 font-weight: 800
+                text-transform: uppercase
 
                 & svg
                     fill: $yellow
@@ -84,10 +85,11 @@
 
     & .manager-intro
         width: 70%
-        display: flex
         border: 2px solid $purple-strong
         border-radius: 12px
         position: relative
+        display: flex
+        flex-wrap: wrap
 
         & div:first-child
             width: 30%
@@ -97,7 +99,7 @@
             background-image: url('https://storage.googleapis.com/ceniteg-images/INICIO_SLOGAN.jpg')
             border-radius: 10px 0 0 10px
 
-        & div:last-child
+        & div:nth-child(2)
             width: 70%
             padding: 8% 6% 6% 8%
 
@@ -121,6 +123,13 @@
             & h4
                 z-index: 200
                 font-size: 28px
+        & div:nth-child(3)
+            border: 2px solid $purple-strong
+            background-color: rgba(99, 127, 198, .2)
+            border-width: 2px 0 0 0
+            padding: 3%
+            font-size: 20px
+            text-align: justify
 
 @media screen and (max-width: 920px)
     .card-home .manager-intro
@@ -136,7 +145,7 @@
                 height: 240px
                 border-radius: 10px 10px 0 0
 
-            & div:last-child
+            & div:nth-child(2)
                 width: 100%
 
                 & p
@@ -147,3 +156,9 @@
 
                 & h4
                     font-size: 20px
+            & div:nth-child(3)
+                border: 2px solid $purple-strong
+                border-width: 2px 0 0 0
+                padding: 8%
+                font-size: 20px
+                text-align: justify

@@ -49,21 +49,27 @@
                 padding: 0 0 0 0
 .bg-purple
     background-color: $blue-strong
-    color: $purple-strong
+    color: $white
+    overflow: hidden
 
     h2
         font-size: 48px
         font-weight: 800
         text-align: center
-        margin: 0 0 4%
+        text-transform: uppercase
+        animation-duration: 10s
+        animation-name: slidein
+        animation-iteration-count: infinite
+        animation-direction: alternate
 
-    p
-        font-size: 24px
-        font-weight: bold
-        text-align: center
-        color: $white
-        & svg
-            fill: $purple-strong
+@keyframes slidein
+    from
+        margin-left: 50%
+        width: 100%
+
+    to
+        margin-left: -50%
+        width: 100%
 
 .card-img-service
     background-size: cover
@@ -178,7 +184,7 @@
         z-index: 100
 
         h1
-            font-size: 48px
+            font-size: 36px
             margin: 0 0 2% 8%
             padding: 0 0 0 0
             font-weight: 800

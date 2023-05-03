@@ -11,3 +11,26 @@
 .active
     font-weight: 800 !important
     color: $blue-strong
+
+nav
+    div a
+        span
+            margin: 0 0 0 4%
+            font-size: 24px
+
+            & b:first-child
+                color: $purple-strong
+
+            & b:last-child
+                color: $blue-strong
+
+@media screen and (max-width: 800px)
+    nav div
+        & a.navbar-brand
+            display: flex
+            width: 70%
+            align-items: center
+
+            & span
+                display: flex
+                flex-direction: column

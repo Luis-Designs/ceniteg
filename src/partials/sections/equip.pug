@@ -11,5 +11,5 @@ include ../../mixins/socialIcons
         p.mb-4 #{item.role}
         .social-links
             each link, key in item.socialLinks 
-                a(href=link)
+                a(href=link, target='_blanck')
                     +socialIcons(key)

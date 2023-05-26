@@ -1,201 +1,122 @@
 @import '../base/_variables'
 
-.video-about
-    position: relative
-    overflow: hidden
-    width: 100%
-    height: 85vh
+.video-section section.container-fluid
+    & h1
+        font-size: 56px
+        font-weight: 800
+        margin: 0 0 2% 8%
+        text-align: justify
 
-    & video
-        position: absolute
-        width: 100%
-        height: 100%
-        object-fit: cover
-        top: 0
-        left: 0
-
-    & section.container-fluid
-        position: absolute
-        height: 100%
-        display: flex
-        align-items: center
-        color: $white
-        background-color: rgba(0, 0, 0, .3)
-        z-index: 100
-
-        & h1
-            font-size: 56px
-            font-weight: 800
-            margin: 0 0 2% 8%
-            text-align: justify
-
-        & p
-            margin: 0 0 2% 8%
-            padding: 0 30% 0 0
-            font-size: 24px
-            text-align: justify
+    & p
+        margin: 0 0 2% 8%
+        padding: 0 20% 0 0
+        font-size: 24px
+        text-align: justify
 
 @media screen and (max-width: 520px)
-    .video-about
-        & section.container-fluid
-            h1
-                margin: 0 2% 2% 2%
-                font-size: 36px
-            p
-                margin: 8% 2% 10% 2%
-                font-size: 18px
-                padding: 0 0 0 0
+    .video-section section.container-fluid
+        h1
+            margin: 0 2% 2% 2%
+            font-size: 36px
+        p
+            margin: 8% 2% 10% 2%
+            font-size: 18px
+            padding: 0 0 0 0
 
 .goals
-    background-image: url('https://res.cloudinary.com/dokwefr5i/image/upload/v1679516713/Ceniteg/goals_pv3hku.jpg')
-    background-size: cover
-    width: 100%
     display: flex
+    width: 100%
+    padding: 4% 8%
+    gap: 40
+    justify-content: center
 
-    &>div
-        height: 100%
-        width: 100%
+    &__item
+        box-shadow: 0em 0em 2em 0.1em #19334c51
+        width: 30%
+    &__item &__item__img
+        background-size: cover
+        height: 260px
         display: flex
-        justify-content: space-evenly
-        padding: 0 4%
-        background-color: rgba(25, 51, 76, .6)
+        justify-content: center
+        align-items: flex-end
+        position: relative
 
-        &>div:first-child
-            height: 100%
-            width: 30%
-            & img
-                width: 100%
-                height: 100%
+    &__item &__item__img svg
+        position: absolute
+        top: 88%
+        fill: $white
 
-        &>div:last-child
-            width: 56%
-            color: $white
-            display: flex
-            flex-direction: column
-            justify-content: space-between
+    &__item &__item__img svg:last-child
+        fill: $purple-strong
+        top: 93%
 
-            & div
-                background-color: rgba(0, 0, 0, .2)
-                padding: 1% 2% 2%
-                border: 1px solid $yellow
-                border-width: 0 0 0 8px
-                width: 100%
+    &__item:first-child &__item__img
+        background-image: url('/src/assets/img/mision.jpg')
 
-                & h4
-                    font-size: 36px
-                    font-weight: bold
-                    margin: 2% 0 2% 0
+    &__item:nth-child(2) &__item__img
+        background-image: url('/src/assets/img/aspiracion.jpg')
 
-                & p
-                    font-size: 18px
-                    text-align: justify
-                    padding: 0 0 1% 0
+    &__item:last-child &__item__img
+        background-image: url('/src/assets/img/proposito.jpg')
 
-            & div:nth-child(2)
-                margin: 2% 0
-
-@media screen and (max-width: 920px)
-    .goals
-        &>div
-            height: 100%
-            width: 100%
-            display: flex
-            justify-content: space-evenly
-            padding: 0 4%
-            background-color: rgba(25, 51, 76, .6)
-
-            &>div:first-child
-                display: none
-
-            &>div:last-child
-                width: 100%
-                color: $white
-                display: flex
-                flex-direction: column
-                justify-content: space-between
-
-                & div
-                    background-color: rgba(0, 0, 0, .2)
-                    padding: 1% 2% 2%
-                    border: 1px solid $yellow
-                    border-width: 0 0 0 8px
-                    width: 100%
-
-                    & h4
-                        font-size: 36px
-                        font-weight: bold
-                        margin: 2% 0 2% 0
-
-                    & p
-                        font-size: 18px
-                        text-align: justify
-                        padding: 0 0 1% 0
-
-                & div:nth-child(2)
-                    margin: 4% 0
-
-.our-equip
-    &>h2
-        text-align: center
+    &__item h4
+        margin: 28px 0 12px
         font-size: 44px
+        color: $purple-strong
+
+    &__item p
         color: $blue-strong
-        font-weight: 800
+        font-size: 22px
+        padding: 0 4%
+        font-weight: 400
 
-    &-integrants
+    &__item h4,
+    &__item p
+        text-align: center
+
+.manager .manager-wrapper>p
+    margin: 36px 0 0
+
+h2
+    text-align: center
+    font-size: 44px
+    color: $blue-strong
+    font-weight: 800
+
+.integrants
+    display: flex
+    width: 100%
+    justify-content: center
+    flex-wrap: wrap
+    gap: 40
+
+    &__item
+        // background-color: $blue-strong
+        // background-color: rgba(99, 128, 198, .5)
         display: flex
-        justify-content: space-evenly
+        flex-direction: column
         align-items: center
-        flex-wrap: wrap
-        width: 100%
+        width: 20rem
+        height: 20rem
+        box-shadow: 0em 0em 2em 0.1em #00000038
+        border-radius: 16px
+        padding: 1.5em 0 0
 
-        & .item
-            // background-color: $yellow
-            background-color: $blue-strong
-            // background-color: rgba(99, 128, 198, .5)
-            display: flex
-            width: 20rem
-            height: 14rem
-            justify-content: space-evenly
-            align-items: center
-            padding: 2% 1%
-            margin: 1%
-            border-radius: 16px
+        &__img
+            width: 100px
+            height: 100px
+            background-size: cover
+            border-radius: 50%
+            border: 1px solid red
 
-            &-img
-                width: 110px
-                height: 110px
-                background-size: cover
-                border-radius: 50%
-                // width: 10rem
+        &__detail h4
+            text-align: center
+            margin: 20px 0 12px
+            padding: 0 8px
+        &__detail p
+            text-align: center
+            margin: 20px 0 12px
+            font-size: 18px
 
-            &-description
-                color: #fff
-                padding: 0 0 0 4%
-                width: 10rem
-
-                & h2
-                    font-size: 20px
-                    font-weight: bold
-
-                & .social-links a
-                    padding: 0
-                    margin: 0 8px 0 0
-                    background-color: transparent
-
-                    & svg
-                        fill: #fff
-
-                    &:hover svg
-                        fill: $purple-strong
-                    &:hover
-                        background-color: transparent
-
-@media screen and (max-width: 800px)
-    .our-equip-integrants
-        & .item
-            padding: 8% 4%
-
-    .item-description .social-links a
-        margin: 0 8px 0 0
-        padding: 0px 0px
-        background-color: transparent
+        &__detail .social-links
+            justify-content: center

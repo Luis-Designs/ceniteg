@@ -5,35 +5,51 @@ block consts
     - var dir = ''
 
 block content    
-    .video-about
+    .video-section
         video(autoplay='' muted='' playsinline='' loop='', src='https://storage.googleapis.com/ceniteg-images/NOSOTROS.mp4') 
         section.container-fluid
           .col-12.slide-right
             h1
                 | &iquest;Quiénes somos?
-            p Somos una organización dedicada a impulsar el desarrollo de proyectos que generan valor a nuestros clientes del sector minería, gestión ambiental y producción, mediante la aplicación de ingeniería, transferencia tecnológica y educación.
-            p.d-none.d-md-block Nuestra cultura está basada en calidad, mejora continua, cuidado del medio ambiente, seguridad y responsabilidad social, siendo la persona lo más importante para nosotros.
-            p Brindamos soluciones globales, innovadoras y accesibles desde el año 2014.
+            p Somos una organización dedicada a impulsar el desarrollo de proyectos que generan valor a nuestros clientes y aliados estratégicos del sector minería, gestión ambiental y producción, mediante la aplicación de ingeniería, transferencia tecnológica y educación.
+            p.d-none.d-md-block Nuestra cultura está basada en la innovación, mejora continua, cuidado del medio ambiente, seguridad y responsabilidad social, siendo la persona y la sociedad lo más importante para nosotros.
+            p Brindamos soluciones integrales, globales y accesibles desde el año 2014.
 
-    section.goals.mt-5  
-        div.py-5
-            div
-                img(src="https://storage.googleapis.com/ceniteg-images/MSI%C3%93N_VISI%C3%93N.JPG", alt="Image of goal ceniteg")
-            div
-                include ../../partials/sections/goals
+    section.goals
+        div.goals__item
+            div.goals__item__img
+                <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" ><path d="M12 2C6.486 2 2 6.486 2 12c.001 5.515 4.487 10.001 10 10.001 5.514 0 10-4.486 10.001-10.001 0-5.514-4.486-10-10.001-10zm0 18.001c-4.41 0-7.999-3.589-8-8.001 0-4.411 3.589-8 8-8 4.412 0 8.001 3.589 8.001 8-.001 4.412-3.59 8.001-8.001 8.001z"></path></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" ><path d="M12 2C6.486 2 2 6.486 2 12c.001 5.515 4.487 10.001 10 10.001 5.514 0 10-4.486 10.001-10.001 0-5.514-4.486-10-10.001-10zm0 18.001c-4.41 0-7.999-3.589-8-8.001 0-4.411 3.589-8 8-8 4.412 0 8.001 3.589 8.001 8-.001 4.412-3.59 8.001-8.001 8.001z"></path></svg>
+            h4 Misión
+            p Ayudar a las organizaciones en todos sus procesos de crecimiento.
+        div.goals__item
+            div.goals__item__img
+                <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" ><path d="M12 2C6.486 2 2 6.486 2 12c.001 5.515 4.487 10.001 10 10.001 5.514 0 10-4.486 10.001-10.001 0-5.514-4.486-10-10.001-10zm0 18.001c-4.41 0-7.999-3.589-8-8.001 0-4.411 3.589-8 8-8 4.412 0 8.001 3.589 8.001 8-.001 4.412-3.59 8.001-8.001 8.001z"></path></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" ><path d="M12 2C6.486 2 2 6.486 2 12c.001 5.515 4.487 10.001 10 10.001 5.514 0 10-4.486 10.001-10.001 0-5.514-4.486-10-10.001-10zm0 18.001c-4.41 0-7.999-3.589-8-8.001 0-4.411 3.589-8 8-8 4.412 0 8.001 3.589 8.001 8-.001 4.412-3.59 8.001-8.001 8.001z"></path></svg>
+            h4 Aspiración
+            p Ser socios estratégicos de nuestros clientes a nivel nacional e internacional, comprometidos con la calidad, investigación, innovación y tecnología.
+        div.goals__item
+            div.goals__item__img
+                <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" ><path d="M12 2C6.486 2 2 6.486 2 12c.001 5.515 4.487 10.001 10 10.001 5.514 0 10-4.486 10.001-10.001 0-5.514-4.486-10-10.001-10zm0 18.001c-4.41 0-7.999-3.589-8-8.001 0-4.411 3.589-8 8-8 4.412 0 8.001 3.589 8.001 8-.001 4.412-3.59 8.001-8.001 8.001z"></path></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24"><path d="M12 2C6.486 2 2 6.486 2 12c.001 5.515 4.487 10.001 10 10.001 5.514 0 10-4.486 10.001-10.001 0-5.514-4.486-10-10.001-10zm0 18.001c-4.41 0-7.999-3.589-8-8.001 0-4.411 3.589-8 8-8 4.412 0 8.001 3.589 8.001 8-.001 4.412-3.59 8.001-8.001 8.001z"></path></svg>
+            h4 Propósito
+            p Contribuir a la eficacia y sostenibilidad de los diferentes negocios del sector industrial.
 
-    section.container-fluid.py-5.our-equip
+    
+
+    section.container-fluid.py-5
         h2 NUESTRO EQUIPO
-        .col-12.card-home.my-4
-            .manager-intro
-                div(style='background-image: url("https://storage.googleapis.com/ceniteg-images/JUAN_MORENO.jfif");')
-                div
-                    <svg xmlns="http://www.w3.org/2000/svg" width="84" height="84" viewBox="0 0 24 24"><path d="M6.5 10c-.223 0-.437.034-.65.065.069-.232.14-.468.254-.68.114-.308.292-.575.469-.844.148-.291.409-.488.601-.737.201-.242.475-.403.692-.604.213-.21.492-.315.714-.463.232-.133.434-.28.65-.35l.539-.222.474-.197-.485-1.938-.597.144c-.191.048-.424.104-.689.171-.271.05-.56.187-.882.312-.318.142-.686.238-1.028.466-.344.218-.741.4-1.091.692-.339.301-.748.562-1.05.945-.33.358-.656.734-.909 1.162-.293.408-.492.856-.702 1.299-.19.443-.343.896-.468 1.336-.237.882-.343 1.72-.384 2.437-.034.718-.014 1.315.028 1.747.015.204.043.402.063.539l.025.168.026-.006A4.5 4.5 0 1 0 6.5 10zm11 0c-.223 0-.437.034-.65.065.069-.232.14-.468.254-.68.114-.308.292-.575.469-.844.148-.291.409-.488.601-.737.201-.242.475-.403.692-.604.213-.21.492-.315.714-.463.232-.133.434-.28.65-.35l.539-.222.474-.197-.485-1.938-.597.144c-.191.048-.424.104-.689.171-.271.05-.56.187-.882.312-.317.143-.686.238-1.028.467-.344.218-.741.4-1.091.692-.339.301-.748.562-1.05.944-.33.358-.656.734-.909 1.162-.293.408-.492.856-.702 1.299-.19.443-.343.896-.468 1.336-.237.882-.343 1.72-.384 2.437-.034.718-.014 1.315.028 1.747.015.204.043.402.063.539l.025.168.026-.006A4.5 4.5 0 1 0 17.5 10z"></path></svg>
+        div.manager.py-5
+            div.manager-wrapper
+                h3 MBA Juan Eduardo Moreno Gutiérrez
+                //- p Gerente
+                span Gerente
 
-                    p Licenciado en Administración de Empresas. Máster en Dirección de Empresas y Maestría en Gobierno de Organizaciones por el PAD, Máster en Transformación Digital por la Universidad de Barcelona. Especialización en Dirección de Transformación Digital por la Universidad de Lima.
-                    h3 MBA Juan Eduardo Moreno Gutiérrez
-                    h4 Gerente
-        .container-fluid.d-flex.flex-wrap.justify-content-evenly.pt-3.pb-2
+                p Licenciado en Administración de Empresas. Máster en Dirección de Empresas y Maestría en Gobierno de Organizaciones por el PAD, Máster en Transformación Digital por la Universidad de Barcelona. Especialización en Dirección de Transformación Digital por la Universidad de Lima.
+
+            img.manager-wrapper-img(src="/src/assets/img/juan__moreno__default.webp", alt="Juan Moreno Default")
+
+        div.integrants
             include ../../partials/sections/equip
 
     

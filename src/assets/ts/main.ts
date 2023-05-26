@@ -2,12 +2,6 @@ import 'bootstrap';
 
 import ScrollReveal from 'scrollreveal';
 
-ScrollReveal().reveal('.card', {
-  reset: true,
-  delay: 200,
-  interval: 200,
-});
-
 ScrollReveal().reveal('.slide-right', {
   origin: 'right',
   distance: '50%',
@@ -16,15 +10,46 @@ ScrollReveal().reveal('.slide-right', {
   reset: true,
 });
 
-ScrollReveal().reveal('.flip', {
-  reset: true,
+ScrollReveal().reveal('#counter', {
+  reset: false,
   delay: 200,
   interval: 200,
-  rotate: {
-    x: 20,
-    z: 20,
-  },
+  afterReveal: counter,
 });
+
+function counter() {
+  let counter = document.getElementById('counter') as HTMLElement;
+  let i = 500;
+  let delay = 1;
+
+  function updateCounter() {
+    counter.textContent = String(i);
+
+    if (i < 600) {
+      i++;
+      delay += 1;
+      setTimeout(updateCounter, delay);
+    }
+  }
+
+  updateCounter();
+}
+
+const navbar = document.querySelector('nav.navbar') as HTMLElement;
+
+window.onscroll = function () {
+  'use strict';
+  if (
+    document.body.scrollTop >= 20 ||
+    document.documentElement.scrollTop >= 20
+  ) {
+    navbar.classList.add('scroll');
+    navbar.classList.remove('topnav');
+  } else {
+    navbar.classList.remove('scroll');
+    navbar.classList.add('topnav');
+  }
+};
 
 const links = document.querySelectorAll('.navbar-nav .nav-link');
 for (const link of Array.from(links)) {

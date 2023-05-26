@@ -2,7 +2,7 @@
     {
         "name": "ING. KELLY ALFARO MONTOYA",
         "role": "Ingeniería Económica",
-        "img": "https://storage.googleapis.com/ceniteg-images/EQUIPO_INTEGRANTE_1.jfif",
+        "img": "https://storage.googleapis.com/ceniteg-images/Kely%20Alfaro%20Montoya.jpg",
         "socialLinks": {
             "li": "https://www.linkedin.com/in/kely-alfaro-montoya-722795128/"
         }
@@ -10,7 +10,7 @@
     {
         "name": "ING. OSCAR EDMUNDO YANGALI IPARRAGUIRRE",
         "role": "Ingeniería Mecánica Eléctrica",
-        "img": "https://storage.googleapis.com/ceniteg-images/Logo_Square.jpg",
+        "img": "https://storage.googleapis.com/ceniteg-images/Oscar%20Edmundo%20Yangali.jpg",
         "socialLinks": {
             "li": "https://www.linkedin.com/in/oscar-edmundo-yangali-iparraguirre-b1751b25/"
         }
@@ -34,7 +34,7 @@
     {
         "name": "ING. ANGIE KEANDRA MUCHA ARELLANO",
         "role": "Sociología",
-        "img": "https://storage.googleapis.com/ceniteg-images/Logo_Square.jpg",
+        "img": "https://storage.googleapis.com/ceniteg-images/Angie%20Mucha%20Arellano.jpg",
         "socialLinks": {
             "li": "https://www.linkedin.com/in/angie-keandra-mucha-arellano-2b6602a3/"
         }
@@ -50,7 +50,7 @@
     {
         "name": "ING. HENRI MEJÍA VILCHES",
         "role": "Ingeniería Civil",
-        "img": "https://storage.googleapis.com/ceniteg-images/EQUIPO_INTEGRANTE_7.jfif",
+        "img": "https://storage.googleapis.com/ceniteg-images/Henry%20Mej%C3%ADa%20Villchez.jpg",
         "socialLinks": {
             "li": "https://www.linkedin.com/in/henri-mejia-vilchez-4376487b/"
         }
@@ -74,9 +74,33 @@
     {
         "name": "CRISTIAAN BOLAND",
         "role": "Senior Consultant",
-        "img": "https://storage.googleapis.com/ceniteg-images/Logo_Square.jpg",
+        "img": "https://storage.googleapis.com/ceniteg-images/Christiaan%20Boland.jpg",
         "socialLinks": {
             "li": "https://www.linkedin.com/company/cenitegsolutions/"
+        }
+    },
+    {
+        "name": "ING. PAMELA GIL GONZÁLEZ",
+        "role": "Auditora Interna",
+        "img": "https://storage.googleapis.com/ceniteg-images/PAMELA%20GIL%20GONZALEZ.jpeg",
+        "socialLinks": {
+            "li": "https://www.linkedin.com/in/pamelagilg/"
+        }
+    },
+    {
+        "name": "ING. JOSÉ CARLOS LINO HUAMÁN",
+        "role": "Jefe de Procesos",
+        "img": "https://storage.googleapis.com/ceniteg-images/JOSE%20CARLOS%20LINO.jpg",
+        "socialLinks": {
+            "li": "https://www.linkedin.com/in/josecarlino"
+        }
+    },
+    {
+        "name": "ING. LIZBETH REYES DIONICIO",
+        "role": "Administración",
+        "img": "https://storage.googleapis.com/ceniteg-images/Logo_Square.jpg",
+        "socialLinks": {
+            "li": "https://www.linkedin.com/in/lizbeth-reyes-479808ba/"
         }
     }
 ]

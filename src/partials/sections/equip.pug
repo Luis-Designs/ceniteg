@@ -1,15 +1,14 @@
 include ../../data/equip
 include ../../mixins/socialIcons
 
-.our-equip-integrants
-  each item, i in dataEquip
-    .item
-      //- img(src=item.img, alt="carousel-equip-img-"+i)
-      .item-img(style="background-image: url('" + item.img + "')")
-      .item-description 
-        h2.mb-2 #{item.name}
-        p.mb-4 #{item.role}
-        .social-links
-            each link, key in item.socialLinks 
-                a(href=link, target='_blanck')
-                    +socialIcons(key)
+each item, i in dataEquip
+  div.integrants__item
+    //- img(src=item.img, alt="carousel-equip-img-"+i)
+    div.integrants__item__img(style="background-image: url('" + item.img + "')")
+    div.integrants__item__detail
+      h4 #{item.name}
+      p #{item.role}
+      div.social-links
+          each link, key in item.socialLinks 
+              a(href=link, target='_blanck')
+                  +socialIcons(key)

@@ -1,9 +1,40 @@
 @import '../base/_variables'
 @import '../module/_social-links'
 
-footer
-    background-color: $blue-strong
+.footer
+    background-image: url('/src/assets/img/footer-img.jpg')
+    background-size: cover
+    width: 100%
+    color: $white
 
-    & p
-        padding: 0
-        text-align: center
+    &__wrapper
+        padding: 4% 8%
+        display: flex
+        justify-content: space-between
+
+        &__company h3,
+        &__contact h3
+            color: $yellow
+            font-weight: 600
+
+        &__company a svg
+            fill: $white
+
+        &__contact
+            display: flex
+            justify-content: flex-start
+            align-items: flex-end
+            flex-direction: column
+
+        &__contact p
+            margin: .2em 0
+
+    &__copyright
+        background-color: $blue-strong
+        padding: 8px 0
+        display: flex
+        justify-content: center
+        align-items: center
+
+        & p
+            margin: 0

@@ -1,15 +1,22 @@
-.social-links a
-    padding: 10px 10px
-    margin: 0 10px
-    background-color: #fff
-    border-radius: 50%
+.social-links
+    width: 100%
+    display: flex
+    justify-content: flex-end
+    gap: 12
+    margin: 4% 0 0
 
-    & svg
-        fill: rgba(0, 0, 0, 1)
+    a
+        padding: 10px 10px
+        background-color: #fff
+        border-radius: 50%
+        transition: background-color 320ms
 
-    &:hover
-        background-color: rgba(0, 0, 0, .5)
-        cursor: pointer
+        & svg
+            fill: #f8931f
 
-    &:hover svg
-        fill: #fff
+        &:hover
+            background-color: rgba(25, 51, 76, .5)
+            cursor: pointer
+
+        &:hover svg
+            fill: #fff

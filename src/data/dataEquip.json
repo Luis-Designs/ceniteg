@@ -1,122 +1,106 @@
 [
     {
-        "name": "Paolo",
-        "role": "Developer - UX/UI",
-        "img": "https://storage.googleapis.com/ceniteg-images/EQUIPO_INTEGRANTE_1.jpg",
+        "name": "ING. KELLY ALFARO MONTOYA",
+        "role": "Ingeniería Económica",
+        "img": "https://storage.googleapis.com/ceniteg-images/Kely%20Alfaro%20Montoya.jpg",
         "socialLinks": {
-            "fb": "https://www.facebook.com/fanaticosdelcine/",
-            "ig": "https://www.instagram.com/edteamlat/",
-            "li": "https://www.linkedin.com/school/universidad-peruana-de-ciencias-aplicadas/"
+            "li": "https://www.linkedin.com/in/kely-alfaro-montoya-722795128/"
         }
     },
     {
-        "name": "Pedro",
-        "role": "Contador",
-        "img": "https://storage.googleapis.com/ceniteg-images/EQUIPO_INTEGRANTE_2.jpg",
+        "name": "ING. OSCAR EDMUNDO YANGALI IPARRAGUIRRE",
+        "role": "Ingeniería Mecánica Eléctrica",
+        "img": "https://storage.googleapis.com/ceniteg-images/Oscar%20Edmundo%20Yangali.jpg",
         "socialLinks": {
-            "fb": "https://www.facebook.com/fanaticosdelcine/",
-            "ig": "https://www.instagram.com/edteamlat/",
-            "li": "https://www.linkedin.com/school/universidad-peruana-de-ciencias-aplicadas/"
+            "li": "https://www.linkedin.com/in/oscar-edmundo-yangali-iparraguirre-b1751b25/"
         }
     },
     {
-        "name": "Carlos",
-        "role": "Developer",
-        "img": "https://storage.googleapis.com/ceniteg-images/EQUIPO_INTEGRANTE_3.jpg",
+        "name": "ING. ERIC EFRAIN DE LA CRUZ DE LA CRUZ",
+        "role": "Biología",
+        "img": "https://storage.googleapis.com/ceniteg-images/Logo_Square.jpg",
         "socialLinks": {
-            "fb": "https://www.facebook.com/fanaticosdelcine/",
-            "ig": "https://www.instagram.com/edteamlat/",
-            "li": "https://www.linkedin.com/school/universidad-peruana-de-ciencias-aplicadas/"
+            "li": "https://www.linkedin.com/company/cenitegsolutions/"
         }
     },
     {
-        "name": "Divala",
-        "role": "Developer",
-        "img": "https://storage.googleapis.com/ceniteg-images/EQUIPO_INTEGRANTE_4.jpg",
+        "name": "ING. KELVIN MANUEL GONGORA COAGUILA",
+        "role": "Ingeniería Geológica",
+        "img": "https://storage.googleapis.com/ceniteg-images/Logo_Square.jpg",
         "socialLinks": {
-            "fb": "https://www.facebook.com/fanaticosdelcine/",
-            "ig": "https://www.instagram.com/edteamlat/",
-            "li": "https://www.linkedin.com/school/universidad-peruana-de-ciencias-aplicadas/"
+            "li": "https://www.linkedin.com/company/cenitegsolutions/"
         }
     },
     {
-        "name": "Paolo",
-        "role": "Developer - UX/UI",
-        "img": "https://storage.googleapis.com/ceniteg-images/EQUIPO_INTEGRANTE_5.jpg",
+        "name": "ING. ANGIE KEANDRA MUCHA ARELLANO",
+        "role": "Sociología",
+        "img": "https://storage.googleapis.com/ceniteg-images/Angie%20Mucha%20Arellano.jpg",
         "socialLinks": {
-            "fb": "https://www.facebook.com/fanaticosdelcine/",
-            "ig": "https://www.instagram.com/edteamlat/",
-            "li": "https://www.linkedin.com/school/universidad-peruana-de-ciencias-aplicadas/"
+            "li": "https://www.linkedin.com/in/angie-keandra-mucha-arellano-2b6602a3/"
         }
     },
     {
-        "name": "Pedro",
-        "role": "Contador",
-        "img": "https://storage.googleapis.com/ceniteg-images/EQUIPO_INTEGRANTE_6.jpg",
+        "name": "ING. CÉSAR CRISTOBAL ONCON CONTRERAS",
+        "role": "Igeniería Ambiental",
+        "img": "https://storage.googleapis.com/ceniteg-images/Logo_Square.jpg",
         "socialLinks": {
-            "fb": "https://www.facebook.com/fanaticosdelcine/",
-            "ig": "https://www.instagram.com/edteamlat/",
-            "li": "https://www.linkedin.com/school/universidad-peruana-de-ciencias-aplicadas/"
+            "li": "https://www.linkedin.com/company/cenitegsolutions/"
         }
     },
     {
-        "name": "Carlos",
-        "role": "Developer",
-        "img": "https://storage.googleapis.com/ceniteg-images/EQUIPO_INTEGRANTE_7.jpg",
+        "name": "ING. HENRI MEJÍA VILCHES",
+        "role": "Ingeniería Civil",
+        "img": "https://storage.googleapis.com/ceniteg-images/Henry%20Mej%C3%ADa%20Villchez.jpg",
         "socialLinks": {
-            "fb": "https://www.facebook.com/fanaticosdelcine/",
-            "ig": "https://www.instagram.com/edteamlat/",
-            "li": "https://www.linkedin.com/school/universidad-peruana-de-ciencias-aplicadas/"
+            "li": "https://www.linkedin.com/in/henri-mejia-vilchez-4376487b/"
         }
     },
     {
-        "name": "Divala",
-        "role": "Developer",
-        "img": "https://storage.googleapis.com/ceniteg-images/EQUIPO_INTEGRANTE_8.jpg",
+        "name": "ING. FÉLIX AVILA GARCÍA",
+        "role": "Ingeniería de Costos y Presupuesto",
+        "img": "https://storage.googleapis.com/ceniteg-images/EQUIPO_INTEGRANTE_8.jfif",
         "socialLinks": {
-            "fb": "https://www.facebook.com/fanaticosdelcine/",
-            "ig": "https://www.instagram.com/edteamlat/",
-            "li": "https://www.linkedin.com/school/universidad-peruana-de-ciencias-aplicadas/"
+            "li": "https://www.linkedin.com/in/f%C3%A9lix-avila-garc%C3%ADa-1232a649/"
         }
     },
     {
-        "name": "Paolo",
-        "role": "Developer - UX/UI",
-        "img": "https://storage.googleapis.com/ceniteg-images/EQUIPO_INTEGRANTE_9.jpg",
+        "name": "LIC. JOSUÉ ZURITA YOVERA",
+        "role": "Arqueología",
+        "img": "https://storage.googleapis.com/ceniteg-images/Logo_Square.jpg",
         "socialLinks": {
-            "fb": "https://www.facebook.com/fanaticosdelcine/",
-            "ig": "https://www.instagram.com/edteamlat/",
-            "li": "https://www.linkedin.com/school/universidad-peruana-de-ciencias-aplicadas/"
+            "li": "https://www.linkedin.com/company/cenitegsolutions/"
         }
     },
     {
-        "name": "Pedro",
-        "role": "Contador",
-        "img": "https://storage.googleapis.com/ceniteg-images/EQUIPO_INTEGRANTE_10.jpg",
+        "name": "CRISTIAAN BOLAND",
+        "role": "Senior Consultant",
+        "img": "https://storage.googleapis.com/ceniteg-images/Christiaan%20Boland.jpg",
         "socialLinks": {
-            "fb": "https://www.facebook.com/fanaticosdelcine/",
-            "ig": "https://www.instagram.com/edteamlat/",
-            "li": "https://www.linkedin.com/school/universidad-peruana-de-ciencias-aplicadas/"
+            "li": "https://www.linkedin.com/company/cenitegsolutions/"
         }
     },
     {
-        "name": "Carlos",
-        "role": "Developer",
-        "img": "https://storage.googleapis.com/ceniteg-images/EQUIPO_INTEGRANTE_11.jpg",
+        "name": "ING. PAMELA GIL GONZÁLEZ",
+        "role": "Auditora Interna",
+        "img": "https://storage.googleapis.com/ceniteg-images/PAMELA%20GIL%20GONZALEZ.jpeg",
         "socialLinks": {
-            "fb": "https://www.facebook.com/fanaticosdelcine/",
-            "ig": "https://www.instagram.com/edteamlat/",
-            "li": "https://www.linkedin.com/school/universidad-peruana-de-ciencias-aplicadas/"
+            "li": "https://www.linkedin.com/in/pamelagilg/"
         }
     },
     {
-        "name": "Divala",
-        "role": "Developer",
-        "img": "https://storage.googleapis.com/ceniteg-images/EQUIPO_INTEGRANTE_12.jpg",
+        "name": "ING. JOSÉ CARLOS LINO HUAMÁN",
+        "role": "Jefe de Procesos",
+        "img": "https://storage.googleapis.com/ceniteg-images/JOSE%20CARLOS%20LINO.jpg",
         "socialLinks": {
-            "fb": "https://www.facebook.com/fanaticosdelcine/",
-            "ig": "https://www.instagram.com/edteamlat/",
-            "li": "https://www.linkedin.com/school/universidad-peruana-de-ciencias-aplicadas/"
+            "li": "https://www.linkedin.com/in/josecarlino"
+        }
+    },
+    {
+        "name": "ING. LIZBETH REYES DIONICIO",
+        "role": "Administración",
+        "img": "https://storage.googleapis.com/ceniteg-images/Logo_Square.jpg",
+        "socialLinks": {
+            "li": "https://www.linkedin.com/in/lizbeth-reyes-479808ba/"
         }
     }
 ]

@@ -1,10 +1,19 @@
-footer.container-fluid.position-relative
-    .row.text-white 
-        .col-12.d-flex.flex-column.align-items-center.pt-5.pb-2(style="filter: brightness(0) invert(1);")
-            include ../components/logo.pug
-        .col-12.d-flex.flex-column.flex-md-row.justify-content-evenly.align-items-center.my-5
-            include ../components/nav-links.pug
-        .col-12.d-flex.flex-md-row.justify-content-center.align-items-center.mb-5.social-links
-            include ../components/social-links.pug
-        .col-12.mb-5
-            p Copyright 2023 #[a(href=dir+'../../views/pages/index.pug') CENITEG] , Todos los derechos reservados.
+footer.footer
+    div.footer__wrapper
+        div.footer__wrapper__company
+            h3 EMPRESA
+            a.nav-link(aria-current='page' href=dir + '../../views/pages/index.pug') <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M5 12c0 3.859 3.14 7 7 7 3.859 0 7-3.141 7-7s-3.141-7-7-7c-3.86 0-7 3.141-7 7zm12 0c0 2.757-2.243 5-5 5s-5-2.243-5-5 2.243-5 5-5 5 2.243 5 5z"></path></svg> INICIO
+            a.nav-link(href=dir + '../../views/pages/about.pug') <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M5 12c0 3.859 3.14 7 7 7 3.859 0 7-3.141 7-7s-3.141-7-7-7c-3.86 0-7 3.141-7 7zm12 0c0 2.757-2.243 5-5 5s-5-2.243-5-5 2.243-5 5-5 5 2.243 5 5z"></path></svg> NOSOTROS
+            a.nav-link(href=dir + '../../views/pages/services.pug') <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M5 12c0 3.859 3.14 7 7 7 3.859 0 7-3.141 7-7s-3.141-7-7-7c-3.86 0-7 3.141-7 7zm12 0c0 2.757-2.243 5-5 5s-5-2.243-5-5 2.243-5 5-5 5 2.243 5 5z"></path></svg> SERVICIOS
+            a.nav-link(href=dir + '../../views/pages/contact.pug') <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M5 12c0 3.859 3.14 7 7 7 3.859 0 7-3.141 7-7s-3.141-7-7-7c-3.86 0-7 3.141-7 7zm12 0c0 2.757-2.243 5-5 5s-5-2.243-5-5 2.243-5 5-5 5 2.243 5 5z"></path></svg> CONTÁCTANOS 
+        div.footer__wrapper__contact
+            h3 CONTÁCTANOS
+            p Cal. Carlos Marcelo Corne Nro. 279 - Trujillo
+            p info@ceniteg.com
+            p +51 945 297 232
+
+            .social-links
+                include ../components/social-links.pug
+
+    div.footer__copyright
+        p Copyright 2023 <b>CENITEG</b>, Todos los derechos reservados.

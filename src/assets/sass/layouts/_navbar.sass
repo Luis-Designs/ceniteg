@@ -1,13 +1,74 @@
 @import '../base/_variables'
 
 .nav-link
-    font-weight: 400
     font-size: 18px
 
-.inactive
-    // color: #707071
-    color: #aaa
+.scroll
+    background-color: $white
+    transition: position 320ms
+    position: sticky !important
+    box-shadow: 0em 0em 2em 0.1em #00000038
+    top: 0px
 
-.active
-    font-weight: 800 !important
-    color: $blue-strong
+    &>div a
+        display: flex
+        & span
+            margin: auto 0 auto .5em
+            font-size: 24px
+
+        & span b:first-child
+            color: $purple-strong
+        & span b:last-child
+            color: $blue-strong
+
+    & .inactive
+        font-weight: 600 !important
+        color: $blue-strong !important
+
+    & .active,
+    & .inactive:hover
+        font-weight: 600 !important
+        color: $purple-strong !important
+
+.topnav
+    background-color: rgba(255, 255, 255, 00)
+    box-shadow: 0em 0em 2em 0.1em #00000038
+    width: 100%
+    color: $white !important
+    position: absolute !important
+    top: 0
+    left: 0
+    padding: .4em 0 !important
+    &>div a
+        display: flex
+        & svg
+            filter: brightness(0) invert(1)
+
+        & span
+            margin: auto 0 auto .5em
+            font-size: 24px
+
+        & span b
+            color: #fff
+    & .inactive
+        font-weight: 600 !important
+        color: $white !important
+
+    & .active,
+    & .inactive:hover
+        font-weight: 600 !important
+        color: $yellow !important
+
+nav
+    z-index: 1020
+
+@media screen and (max-width: 800px)
+    nav div
+        & a.navbar-brand
+            display: flex
+            width: 70%
+            align-items: center
+
+            & span
+                display: flex
+                flex-direction: column

@@ -35,21 +35,6 @@ function counter() {
   updateCounter();
 }
 
-const navbar = document.querySelector('nav.navbar') as HTMLElement;
-
-window.onscroll = function () {
-  'use strict';
-  if (
-    document.body.scrollTop >= 20 ||
-    document.documentElement.scrollTop >= 20
-  ) {
-    navbar.classList.add('scroll');
-    navbar.classList.remove('topnav');
-  } else {
-    navbar.classList.remove('scroll');
-    navbar.classList.add('topnav');
-  }
-};
 
 const links = document.querySelectorAll('.navbar-nav .nav-link');
 for (const link of Array.from(links)) {

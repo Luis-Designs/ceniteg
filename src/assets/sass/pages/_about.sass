@@ -1,12 +1,6 @@
 @import '../base/_variables'
 
 .video-section section.container-fluid
-    & h1
-        font-size: 56px
-        font-weight: 800
-        margin: 0 0 2% 8%
-        text-align: justify
-
     & p
         margin: 0 0 2% 8%
         padding: 0 20% 0 0
@@ -66,7 +60,7 @@
 
     &__item p
         color: $blue-strong
-        font-size: 22px
+        font-size: 20px
         padding: 0 4%
         font-weight: 400
 
@@ -77,6 +71,7 @@
 .manager .manager-wrapper>p
     margin: 36px 0 0
     padding: 0 16px 0 0
+    font-size: 24px
 
 h2
     text-align: center
@@ -92,14 +87,14 @@ h2
     gap: 40
 
     &__item
-        // background-color: $blue-strong
+        background-color: $blue-strong
+        color: $white
         // background-color: rgba(99, 128, 198, .5)
         display: flex
         flex-direction: column
         align-items: center
         width: 20rem
         height: 20rem
-        box-shadow: 0em 0em 2em 0.1em #00000038
         border-radius: 16px
         padding: 1.5em 0 0
 
@@ -108,7 +103,7 @@ h2
             height: 100px
             background-size: cover
             border-radius: 50%
-            border: 1px solid red
+            border: 2px solid $white
 
         &__detail h4
             text-align: center

@@ -2,16 +2,19 @@
 
 .video-section .container-fluid div:first-child
     h1
-        margin: 0 30% 2% 8%
-        font-size: 56px
-        font-weight: 800
+        margin: 0 20% 2% 8%
         text-transform: uppercase
+        font-size: 80px
+        line-height: 80px
+        font-family: 'Roboto', sans-serif
+        font-weight: 700
 
 @media screen and (max-width: 768px)
     .video-section .container-fluid div:first-child
         h1
             margin: 0 2% 4% 2%
-            font-size: 36px
+            font-size: 40px
+            line-height: 40px
 
 .manager
     width: 100%
@@ -21,18 +24,17 @@
     & .manager-wrapper
         width: 70%
 
+    & .manager-wrapper>span
+        font-size: 20px
+
     & .manager-wrapper h3
         font-size: 56px
         color: $purple-strong
 
-    & .manager-wrapper>p
+    & .manager-wrapper>span.manager-wrapper__charge
         font-size: 28px
-        margin: 0
         color: $blue-strong
-
-    & .manager-wrapper>span
-        font-size: 28px
-        color: $yellow
+        font-weight: 800
 
     & .manager-wrapper__skills
         display: flex
@@ -56,3 +58,82 @@
         background-image: url('https://storage.googleapis.com/ceniteg-images/INICIO_SLOGAN.jpg')
         background-repeat: no-repeat
         background-size: cover
+
+@media screen and (max-width: 960px)
+    .manager
+        width: 100%
+        padding: 0 8%
+        display: flex
+
+        &-wrapper-img
+            width: 100%
+            display: none
+            background-image: url('https://storage.googleapis.com/ceniteg-images/INICIO_SLOGAN.jpg')
+            background-repeat: no-repeat
+            background-size: cover
+
+        & .manager-wrapper
+            width: 100%
+
+        & .manager-wrapper>span
+            font-size: 20px
+
+        & .manager-wrapper h3
+            font-size: 56px
+            color: $purple-strong
+
+        & .manager-wrapper>span.manager-wrapper__charge
+            font-size: 28px
+            color: $blue-strong
+            font-weight: 800
+
+        & .manager-wrapper__skills
+            display: flex
+            width: 100%
+            margin: 56px 0 0
+            gap: 36
+
+            &__specialty h4
+                font-size: 28px
+                color: $blue-strong
+                padding: 0 0 2%
+                margin: 0 0 20px
+                border: 1px solid $blue-strong
+                border-width: 0 0 3px
+            &__specialty p
+                font-size: 20px
+            &__specialty p svg
+                fill: $blue-strong
+@media screen and (max-width: 520px)
+    .manager
+        width: 100%
+        padding: 0 8%
+        display: flex
+
+        &-wrapper-img
+            width: 100%
+            display: none
+            background-image: url('https://storage.googleapis.com/ceniteg-images/INICIO_SLOGAN.jpg')
+            background-repeat: no-repeat
+            background-size: cover
+
+        & .manager-wrapper
+            width: 100%
+
+        & .manager-wrapper>span
+            font-size: 20px
+
+        & .manager-wrapper h3
+            font-size: 56px
+            color: $purple-strong
+
+        & .manager-wrapper>span.manager-wrapper__charge
+            font-size: 28px
+            color: $blue-strong
+            font-weight: 800
+
+        & .manager-wrapper__skills
+            display: flex
+            flex-direction: column
+            margin: 56px 0 0
+            gap: 36

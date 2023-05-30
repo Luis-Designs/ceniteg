@@ -38,3 +38,32 @@
 
         & p
             margin: 0
+
+@media screen and (max-width: 520px)
+    .footer
+        background-image: url('/src/assets/img/footer-img.jpg')
+        background-size: cover
+        width: 100%
+        padding: 8% 0 0
+        color: $white
+
+        &__wrapper
+            padding: 4% 8%
+            flex-direction: column
+
+            &__company
+                display: flex
+                flex-direction: column
+                align-items: center
+                justify-content: center
+                margin: 0 0 16px
+
+            &__contact
+                align-items: center
+                text-align: center
+            &__contact .social-links
+                justify-content: center
+                margin: 2% 0 8%
+
+        &__copyright p
+            text-align: center

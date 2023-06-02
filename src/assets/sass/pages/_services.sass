@@ -16,8 +16,37 @@
         text-transform: uppercase
         margin: 0 0 0
 
+    div
+        display: flex
+        align-items: center
+        gap: 10
+
     svg
         width: 64px
+
+@media screen and (max-width: 960px)
+    .bg-purple
+        gap: 8
+
+        p
+            font-size: 36px
+
+        div
+            display: flex
+            gap: 8
+
+@media screen and (max-width: 520px)
+    .bg-purple
+        flex-direction: column
+
+        p
+            font-size: 28px
+
+        p#counter
+            width: 50%
+
+        svg
+            width: 40px
 
 .services
     display: flex
@@ -26,6 +55,21 @@
     justify-content: center
     gap: 20
     margin: 4% 0 0
+    padding: 0 8% 4%
+
+    & .card
+        width: 30%
+
+@media screen and (max-width: 960px)
+    .services
+        padding: 4% 8% 8%
+
+    .services .card
+        width: 48%
+
+@media screen and (max-width: 520px)
+    .services .card
+        width: 100%
 
 .card-img-service
     background-size: cover
